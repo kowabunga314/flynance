@@ -26,16 +26,19 @@ class AircraftType():
   engine_hp = 180
   fuel_burn = 10
   cruise = 150
-  stall = 50
+  stall_speed = 50
   ceiling = 15000
   takeoff_distance = 1000
   landing_distance = 1000
+  takeoff_distance_50 = 1500
+  landing_distance_50 = 1500
   gear_type = FIXED_GEAR
   flaps = AUTO_FLAPS
   gross_weight = 2500
   empty_weight = 1500
   fuel_capacity = 50
   range = 500
+  rate_of_climb = 1000
   has_autopilot = False
   
   def __init__(self, *args, **kwargs):

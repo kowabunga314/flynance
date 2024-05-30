@@ -1,6 +1,7 @@
-
-from lxml import html
+from io import StringIO
+from lxml import etree
 from pprint import pprint
+import re
 import requests
 
 
@@ -12,18 +13,28 @@ class PlanePHDParser:
       # url = 'https://planephd.com/wizard/details/447/MOONEY-M20F-Executive-21-specifications-performance-operating-cost-valuation'
       url = 'https://planephd.com/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
     response = requests.get(url)
-    page = html.fromstring(response.content)
+    parser = etree.HTMLParser()
+    tree = etree.parse(StringIO(str(response.content)), parser)
 
-    for key in xpaths.keys():
-      print(f'Key: {key}')
-      print(f'Value: {page.xpath(xpaths[key])[0].text}')
-      plane_data[key] = page.xpath(xpaths[key])[0].text
+    # Get performance top
+    pt_keys = tree.xpath(xpath_tree['performance_top']['keys']['path'])
+    pt_values = tree.xpath(xpath_tree['performance_top']['values']['path'])
+
+    if len(pt_keys) != len(pt_values):
+      raise ValueError('Key/Value count does not match on performance top scrape')
+    
+    for i, key in enumerate(pt_keys):
+      clean_key = xpath_tree['performance_top']['keys']['map'][key]
+      match = re.search(xpath_tree['performance_top']['values']['map'][clean_key]['pattern'], pt_values[i])
+      clean_value = xpath_tree['performance_top']['values']['map'][clean_key]['type'](match.group(1).replace(',', ''))
+      # clean_value = clean_value.replace(',', '')
+      plane_data[clean_key] = clean_value
 
     pprint(plane_data)
 
 
 class PlanePHDXPathStore:
-  horsepower = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[1]/p'
+  horsepower = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[1]/p/text()'
   cruise_speed = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[2]/p'
   best_range= '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[3]/p'
   fuel_burn = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[4]/p'
@@ -68,4 +79,74 @@ xpaths = {
   'engine_hp': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[3]/p',
   'engine_tbo': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[4]/p',
   'engine_years_tbo': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[5]/p',
+}
+
+xpath_tree = {
+  'performance_top': {
+    'keys': {
+      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dt/p/text()',
+      'map': {
+        'Best Cruise Speed:': 'cruise',
+        'Best Range (i):': 'range',
+        'Ceiling:': 'ceiling',
+        'Fuel Burn @ 75%:': 'fuel_burn',
+        'Horsepower:': 'engine_hp',
+        'Landing distance over 50ft obstacle:': 'landing_distance_50',
+        'Landing distance:': 'landing_distance',
+        'Rate of climb:': 'rate_of_climb',
+        'Stall Speed:': 'stall_speed',
+        'Takeoff distance over 50ft obstacle:': 'takeoff_distance_50',
+        'Takeoff distance:': 'takeoff_distance'
+      }
+    },
+    'values': {
+      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd/p/text()',
+      'map': {
+        'cruise': {
+          'pattern': r'([\d,]+) KIAS',
+          'type': int
+        },
+        'range': {
+          'pattern': r'([\d,]+) NM',
+          'type': int
+        },
+        'ceiling': {
+          'pattern': r'([\d,]+) FT',
+          'type': int
+        },
+        'fuel_burn': {
+          'pattern': r'([\d\.]+) GPH',
+          'type': float
+        },
+        'engine_hp': {
+          'pattern': r'\d x ([\d,]+) HP',
+          'type': int
+        },
+        'landing_distance_50': {
+          'pattern': r'([\d,]+) FT',
+          'type': int
+        },
+        'landing_distance': {
+          'pattern': r'([\d,]+) FT',
+          'type': int
+        },
+        'rate_of_climb': {
+          'pattern': r'([\d,]+) FPM',
+          'type': int
+        },
+        'stall_speed': {
+          'pattern': r'([\d,]+) KIAS',
+          'type': int
+        },
+        'takeoff_distance_50': {
+          'pattern': r'([\d,]+) FT',
+          'type': int
+        },
+        'takeoff_distance': {
+          'pattern': r'([\d,]+) FT',
+          'type': int
+        }
+      }
+    }
+  }
 }

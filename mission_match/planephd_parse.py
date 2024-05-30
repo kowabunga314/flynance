@@ -23,12 +23,15 @@ class PlanePHDParser:
     if len(pt_keys) != len(pt_values):
       raise ValueError('Key/Value count does not match on performance top scrape')
     
-    for i, key in enumerate(pt_keys):
-      clean_key = xpath_tree['performance_top']['keys']['map'][key]
-      match = re.search(xpath_tree['performance_top']['values']['map'][clean_key]['pattern'], pt_values[i])
-      clean_value = xpath_tree['performance_top']['values']['map'][clean_key]['type'](match.group(1).replace(',', ''))
-      # clean_value = clean_value.replace(',', '')
-      plane_data[clean_key] = clean_value
+    for page_section in xpath_tree:
+      for i, key in enumerate(pt_keys):
+        if key not in xpath_tree[page_section]['keys']['map']:
+          continue
+        clean_key = xpath_tree[page_section]['keys']['map'][key]
+        match = re.search(xpath_tree[page_section]['values']['map'][clean_key]['pattern'], pt_values[i])
+        clean_value = xpath_tree[page_section]['values']['map'][clean_key]['type'](match.group(1).replace(',', ''))
+        # clean_value = clean_value.replace(',', '')
+        plane_data[clean_key] = clean_value
 
     pprint(plane_data)
 
@@ -144,6 +147,87 @@ xpath_tree = {
         },
         'takeoff_distance': {
           'pattern': r'([\d,]+) FT',
+          'type': int
+        }
+      }
+    }
+  },
+  'performance_specifications': {
+    'keys': {
+      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dt/p/text()',
+      'map': {
+        'Gross Weight:': 'gross_weight',
+        'Empty Weight:': 'empty_weight',
+        'Maximum Payload:': 'max_payload',
+        'Fuel capacity:': 'fuel_capacity'
+      }
+    },
+    'values': {
+      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd/p/text()',
+      'map': {
+        'gross_weight': {
+          'pattern': r'([\d,]+) LBS',
+          'type': int
+        },
+        'empty_weight': {
+          'pattern': r'([\d,]+) LBS',
+          'type': int
+        },
+        'max_payload': {
+          'pattern': r'([\d,]+) LBS',
+          'type': int
+        },
+        'fuel_capacity': {
+          'pattern': r'([\d,]+) GAL',
+          'type': int
+        }
+      }
+    }
+  },
+  'ownership_costs': {
+    'keys': {
+      'path': '//*[@id="ownership_costs_top"]/div/dl/dt/p/text()',
+      'map': {
+        'Annual inspection cost:': 'annual_inspection_cost',
+      }
+    },
+    'values': {
+      'path': '//*[@id="ownership_costs_top"]/div/dl/dd/p/text()',
+      'map': {
+        'annual_cost': {
+          'pattern': r'^[\\n\s]+\$([\d,\.]+)[\\n\s]+$',
+          'type': float
+        }
+      }
+    }
+  },
+  'engines': {
+    'keys': {
+      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dt/p/text()',
+      'map': {
+        'Gross Weight:': 'gross_weight',
+        'Empty Weight:': 'empty_weight',
+        'Maximum Payload:': 'max_payload',
+        'Fuel capacity:': 'fuel_capacity'
+      }
+    },
+    'values': {
+      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd/p/text()',
+      'map': {
+        'gross_weight': {
+          'pattern': r'([\d,]+) LBS',
+          'type': int
+        },
+        'empty_weight': {
+          'pattern': r'([\d,]+) LBS',
+          'type': int
+        },
+        'max_payload': {
+          'pattern': r'([\d,]+) LBS',
+          'type': int
+        },
+        'fuel_capacity': {
+          'pattern': r'([\d,]+) GAL',
           'type': int
         }
       }

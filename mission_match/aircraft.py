@@ -36,10 +36,12 @@ class AircraftType():
   flaps = AUTO_FLAPS
   gross_weight = 2500
   empty_weight = 1500
+  max_payload = 1000
   fuel_capacity = 50
   range = 500
   rate_of_climb = 1000
   has_autopilot = False
+  annual_inspection_cost = 2000
   
   def __init__(self, *args, **kwargs):
     for key in kwargs.keys():

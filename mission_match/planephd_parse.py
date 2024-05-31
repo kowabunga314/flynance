@@ -40,14 +40,18 @@ xpath_tree = {
     'keys': {
       'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dt/p/text()',
       'map': {
+        'Thrust:': 'thrust',
         'Best Cruise Speed:': 'cruise',
         'Best Range (i):': 'range',
         'Ceiling:': 'ceiling',
-        'Fuel Burn @ 75%:': 'fuel_burn',
+        'Ceiling (1 engine out):': 'ceiling_eo',
+        'Fuel Burn:': 'fuel_burn',
+        'Fuel Burn @ 75%:': 'fuel_burn_cruise',
         'Horsepower:': 'engine_hp',
         'Landing distance over 50ft obstacle:': 'landing_distance_50',
         'Landing distance:': 'landing_distance',
         'Rate of climb:': 'rate_of_climb',
+        'Rate of climb (1 engine out):': 'rate_of_climb_eo',
         'Stall Speed:': 'stall_speed',
         'Takeoff distance over 50ft obstacle:': 'takeoff_distance_50',
         'Takeoff distance:': 'takeoff_distance'
@@ -56,6 +60,10 @@ xpath_tree = {
     'values': {
       'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd/p/text()',
       'map': {
+        'thrust': {
+          'pattern': r'\d+ x ([\d,]+) N',
+          'type': int
+        },
         'cruise': {
           'pattern': r'([\d,]+) KIAS',
           'type': int
@@ -68,7 +76,15 @@ xpath_tree = {
           'pattern': r'([\d,]+) FT',
           'type': int
         },
+        'ceiling_eo': {
+          'pattern': r'([\d,]+) FT',
+          'type': int
+        },
         'fuel_burn': {
+          'pattern': r'([\d\.]+) GPH',
+          'type': float
+        },
+        'fuel_burn_cruise': {
           'pattern': r'([\d\.]+) GPH',
           'type': float
         },
@@ -85,6 +101,10 @@ xpath_tree = {
           'type': int
         },
         'rate_of_climb': {
+          'pattern': r'([\d,]+) FPM',
+          'type': int
+        },
+        'rate_of_climb_eo': {
           'pattern': r'([\d,]+) FPM',
           'type': int
         },
@@ -129,7 +149,7 @@ xpath_tree = {
           'type': int
         },
         'fuel_capacity': {
-          'pattern': r'([\d,]+) GAL',
+          'pattern': r'([\d,]+) [GAL|LBS]',
           'type': int
         }
       }

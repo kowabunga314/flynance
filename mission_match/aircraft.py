@@ -26,9 +26,13 @@ class AircraftType():
   annual_inspection_cost = 2000
   tbo = 2000
   fuel_burn = 10
+  fuel_burn_cruise = 10
+  fuel_capacity = 50
+  fuel_unit = 'gallon'
   cruise = 150
   stall_speed = 50
   ceiling = 15000
+  ceiling_eo = None
   takeoff_distance = 1000
   landing_distance = 1000
   takeoff_distance_50 = 1500
@@ -38,9 +42,9 @@ class AircraftType():
   gross_weight = 2500
   empty_weight = 1500
   max_payload = 1000
-  fuel_capacity = 50
   range = 500
   rate_of_climb = 1000
+  rate_of_climb_eo = None
   has_autopilot = False
   engine_manufacturer = 'Engine Designation'
   engine_model = 'Engine Designation'

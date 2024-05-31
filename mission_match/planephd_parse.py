@@ -15,15 +15,14 @@ class PlanePHDParser:
     response = requests.get(url)
     parser = etree.HTMLParser()
     tree = etree.parse(StringIO(str(response.content)), parser)
-
-    # Get performance top
-    pt_keys = tree.xpath(xpath_tree['performance_top']['keys']['path'])
-    pt_values = tree.xpath(xpath_tree['performance_top']['values']['path'])
-
-    if len(pt_keys) != len(pt_values):
-      raise ValueError('Key/Value count does not match on performance top scrape')
     
     for page_section in xpath_tree:
+      pt_keys = [k for k in tree.xpath(xpath_tree[page_section]['keys']['path']) if k in xpath_tree[page_section]['keys']['map']]
+      pt_values = tree.xpath(xpath_tree[page_section]['values']['path'])
+
+      # if len(pt_keys) != len(pt_values):
+      #   raise ValueError('Key/Value count does not match on performance top scrape')
+      
       for i, key in enumerate(pt_keys):
         if key not in xpath_tree[page_section]['keys']['map']:
           continue
@@ -35,54 +34,6 @@ class PlanePHDParser:
 
     pprint(plane_data)
 
-
-class PlanePHDXPathStore:
-  horsepower = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[1]/p/text()'
-  cruise_speed = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[2]/p'
-  best_range= '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[3]/p'
-  fuel_burn = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[4]/p'
-  stall_speed = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[5]/p'
-  rate_of_climb = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[6]/p'
-  ceiling = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[7]/p'
-  takeoff_distance = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[8]/p'
-  landing_distance = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[9]/p'
-  takeoff_distance_50 = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[10]/p'
-  landing_distance_50 = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[11]/p'
-  gross_weight = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[1]/p'
-  empty_weight = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[2]/p'
-  max_payload = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[3]/p'
-  fuel_capacity = '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[4]/p'
-  ownership_cost = '//*[@id="ownership_costs_top"]/div/dl/dd[1]/h4/span'
-  engine_man = '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[1]/p'
-  engine_model = '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[2]/p'
-  engine_hp = '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[3]/p'
-  engine_tbo = '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[4]/p'
-  engine_years_tbo = '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[5]/p'
-
-
-xpaths = {
-  'horsepower': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[1]/p',
-  'cruise_speed': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[2]/p',
-  'best_range': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[3]/p',
-  'fuel_burn': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[4]/p',
-  'stall_speed': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[5]/p',
-  'rate_of_climb': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[6]/p',
-  'ceiling': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[7]/p',
-  'takeoff_distance': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[8]/p',
-  'landing_distance': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[9]/p',
-  'takeoff_distance_50': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[9]/p',
-  'landing_distance_50': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[1]/dd[11]/p',
-  'gross_weight': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[1]/p',
-  'empty_weight': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[2]/p',
-  'max_payload': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[3]/p',
-  'fuel_capacity': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd[4]/p',
-  'ownership_cost': '//*[@id="ownership_costs_top"]/div/dl/dd[1]/h4/span',
-  'engine_man': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[1]/p',
-  'engine_model': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[2]/p',
-  'engine_hp': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[3]/p',
-  'engine_tbo': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[4]/p',
-  'engine_years_tbo': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd[5]/p',
-}
 
 xpath_tree = {
   'performance_top': {
@@ -184,50 +135,82 @@ xpath_tree = {
       }
     }
   },
-  'ownership_costs': {
+  'ownership_costs_header': {
     'keys': {
-      'path': '//*[@id="ownership_costs_top"]/div/dl/dt/p/text()',
+      'path': '//*[@id="ownership_costs_top"]/div/dl/dt/h4/text()',
       'map': {
-        'Annual inspection cost:': 'annual_inspection_cost',
+        'Total Cost of Ownership:': 'total_cost_of_ownership',
+        'Total Fixed Cost': 'total_fixed_cost',
+        '\\n                                                    Total Variable Cost (': 'total_variable_cost'
       }
     },
     'values': {
-      'path': '//*[@id="ownership_costs_top"]/div/dl/dd/p/text()',
+      'path': '//*[@id="ownership_costs_top"]/div/dl/dd/h4/span/text()',
       'map': {
-        'annual_cost': {
+        'total_cost_of_ownership': {
+          'pattern': r'^[\\n\s]+\$([\d,\.]+)[\\n\s]+$',
+          'type': float
+        },
+        'total_fixed_cost': {
+          'pattern': r'^[\\n\s]+\$([\d,\.]+)[\\n\s]+$',
+          'type': float
+        },
+        'total_variable_cost': {
           'pattern': r'^[\\n\s]+\$([\d,\.]+)[\\n\s]+$',
           'type': float
         }
       }
     }
   },
+  # 'ownership_costs_detail': {
+  #   'keys': {
+  #     'path': '//*[@id="ownership_costs_top"]/div/dl/dt/p/text()',
+  #     'map': {
+  #       'Annual inspection cost:': 'annual_inspection_cost',
+  #     }
+  #   },
+  #   'values': {
+  #     'path': '//*[@id="ownership_costs_top"]/div/dl/dd/p/text()',
+  #     'map': {
+  #       'annual_inspection_cost': {
+  #         'pattern': r'^[\\n\s]+\$([\d,\.]+)[\\n\s]+$',
+  #         'type': float
+  #       }
+  #     }
+  #   }
+  # },
   'engines': {
     'keys': {
       'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dt/p/text()',
       'map': {
-        'Gross Weight:': 'gross_weight',
-        'Empty Weight:': 'empty_weight',
-        'Maximum Payload:': 'max_payload',
-        'Fuel capacity:': 'fuel_capacity'
+        'Manufacturer:': 'engine_manufacturer',
+        'Model:': 'engine_model',
+        'Horsepower:': 'engine_hp',
+        'Overhaul (HT):': 'engine_tbo',
+        'Years before overhaul:': 'engine_tbo_years'
       }
     },
     'values': {
       'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd/p/text()',
       'map': {
-        'gross_weight': {
-          'pattern': r'([\d,]+) LBS',
+        'engine_manufacturer': {
+          'pattern': r'^([\w\W]+)$',
+          'type': str
+        },
+        'engine_model': {
+          'pattern': r'^([\w\W]+)$',
+          'type': str
+        },
+        'engine_hp': {
+          'pattern': r'([\d,]+) HP',
           'type': int
         },
-        'empty_weight': {
-          'pattern': r'([\d,]+) LBS',
+        'engine_tbo': {
+          'pattern': r'([\d,]+) Hrs',
           'type': int
         },
-        'max_payload': {
-          'pattern': r'([\d,]+) LBS',
-          'type': int
-        },
-        'fuel_capacity': {
-          'pattern': r'([\d,]+) GAL',
+        'engine_tbo_years': {
+          'pattern': r'([\d,]+)',
           'type': int
         }
       }

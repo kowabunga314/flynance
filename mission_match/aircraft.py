@@ -20,10 +20,11 @@ class AircraftType():
   model_year_start = 1960
   model_year_end = 1970
   estimated_value = 100000
-  annual_cost = 15000
+  total_cost_of_ownership = 10000
+  total_fixed_cost = 5000
+  total_variable_cost = 5000
+  annual_inspection_cost = 2000
   tbo = 2000
-  engine = 'Engine Designation'
-  engine_hp = 180
   fuel_burn = 10
   cruise = 150
   stall_speed = 50
@@ -41,7 +42,11 @@ class AircraftType():
   range = 500
   rate_of_climb = 1000
   has_autopilot = False
-  annual_inspection_cost = 2000
+  engine_manufacturer = 'Engine Designation'
+  engine_model = 'Engine Designation'
+  engine_hp = 180
+  engine_tbo = 1800
+  engine_tbo_years = 12
   
   def __init__(self, *args, **kwargs):
     for key in kwargs.keys():

@@ -6,18 +6,77 @@ import requests
 
 
 class PlanePHDParser:
-  
-  def get_aircraft_performance(self, url=None):
-    plane_data = {}
-    if url is None:
-      # url = 'https://planephd.com/wizard/details/447/MOONEY-M20F-Executive-21-specifications-performance-operating-cost-valuation'
-      url = 'https://planephd.com/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
+  host = 'https://planephd.com'
+
+  def crawl_aircraft(self):
+    model_data = []
+
+    model_paths = self.identify_models()
+
+    for i in range(10):
+      model_data.append(self.get_aircraft_performance(model_paths[i]))
+
+    pprint(model_data)
+
+
+  def identify_models(self):
+    model_paths = []
+    url_path = '/wizard/manufacturers/'
+    url = ''.join([self.host, url_path])
     response = requests.get(url)
     parser = etree.HTMLParser()
     tree = etree.parse(StringIO(str(response.content)), parser)
     
+    # TODO: Get plane manufacturer URL
+    manufacturer_xpath = '/html/body/div[1]/div/div/div/div[2]/div[2]/div/div[2]/div/a'
+    manufacturer_url_paths = [e.attrib['href'] for e in tree.xpath(manufacturer_xpath)]
+    
+    # Get manufacturer models pages
+    for manufacturer in manufacturer_url_paths:
+      response = requests.get(''.join([self.host, manufacturer]))
+      tree = etree.parse(StringIO(str(response.content)), parser)
+
+      # Get plane model URLs
+      # TODO: loop requests for model data
+      model_xpath = '/html/body/div[1]/div/div/div/div/div[2]/div[2]/ul/li/div/div/ul/li/a'
+      model_url_paths = [e.attrib['href'] for e in tree.xpath(model_xpath)]
+
+      # Get models pages
+      for model in model_url_paths:
+        model_paths.append(model)
+      
+    return model_paths
+
+  def get_basic_aircraft_data(self, url, tree):
+    plane_data = dict(url=url)
+
+    # Get make
+    make_xpath = '/html/body/div[1]/div[1]/div[1]/div/ol/li[4]/a/text()'
+    make = tree.xpath(make_xpath)[0]
+    plane_data['make'] = make
+
+    # Get model
+    model_xpath = '/html/body/div[1]/div[1]/div[1]/div/ol/li[5]/text()'
+    model = tree.xpath(model_xpath)[0]
+    plane_data['model'] = model
+
+    return plane_data
+  
+  def get_aircraft_performance(self, url=None):
+    if url is None:
+      # url = 'https://planephd.com/wizard/details/447/MOONEY-M20F-Executive-21-specifications-performance-operating-cost-valuation'
+      url = f'{self.host}/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
+    elif self.host not in url:
+      url = ''.join([self.host, url])
+    response = requests.get(url)
+    parser = etree.HTMLParser()
+    tree = etree.parse(StringIO(str(response.content)), parser)
+
+    plane_data = self.get_basic_aircraft_data(url, tree)
+    
     for page_section in xpath_tree:
-      pt_keys = [k for k in tree.xpath(xpath_tree[page_section]['keys']['path']) if k in xpath_tree[page_section]['keys']['map']]
+      # pt_keys = [k for k in tree.xpath(xpath_tree[page_section]['keys']['path']) if k in xpath_tree[page_section]['keys']['map']]
+      pt_keys = tree.xpath(xpath_tree[page_section]['keys']['path'])
       pt_values = tree.xpath(xpath_tree[page_section]['values']['path'])
 
       # if len(pt_keys) != len(pt_values):
@@ -29,10 +88,9 @@ class PlanePHDParser:
         clean_key = xpath_tree[page_section]['keys']['map'][key]
         match = re.search(xpath_tree[page_section]['values']['map'][clean_key]['pattern'], pt_values[i])
         clean_value = xpath_tree[page_section]['values']['map'][clean_key]['type'](match.group(1).replace(',', ''))
-        # clean_value = clean_value.replace(',', '')
         plane_data[clean_key] = clean_value
 
-    pprint(plane_data)
+    return plane_data
 
 
 xpath_tree = {

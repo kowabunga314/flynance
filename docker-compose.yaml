@@ -1,0 +1,33 @@
+version: '3.7'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: captain
+      POSTGRES_PASSWORD: squawkvfr
+      POSTGRES_DB: flynance
+    ports:
+      - 5432:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  api: &api_base
+    build: .
+    restart: always
+    working_dir: /app/
+    command: flask run
+    environment:
+      DATABASE_URL: postgresql://captain:squawkvfr@postgres:5432/flynance
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+  migrations: 
+    <<: *api_base
+    working_dir: /app/aircraft/migrations
+    command: alembic upgrade head
+    ports: []
+volumes:
+  pgdata:

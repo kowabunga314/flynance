@@ -1,0 +1,7 @@
+openapi: 3.0.3
+info:
+  title: Flynance
+  version: 1.0.0
+  description: Find the plane that best-suits your mission.
+paths: {}
+components: {}

@@ -15,18 +15,28 @@ services:
     build: ./aircraft_api
     restart: always
     working_dir: /app
-    command: python manage.py runserver 0.0.0.0:8080
+    command: python manage.py runserver 0.0.0.0:8000
     environment:
       DATABASE_URL: postgresql://captain:squawkvfr@postgres:5432/flynance
     ports:
-      - 8080:8080
+      - 8000:8000
     volumes:
       - ./aircraft_api:/app
     depends_on:
       - db
   migrations: 
     <<: *api_base
+    restart: 'no'
     command: python manage.py migrate
     ports: []
+  node:
+    build:
+      context: ./vue-app
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8080:8080
+    command: >
+      sh -c "http-server dist"
 volumes:
   pgdata:

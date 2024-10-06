@@ -38,5 +38,12 @@ services:
       - 8080:8080
     command: >
       sh -c "http-server dist"
+  mission_match:
+    build: ./mission_match
+    restart: always
+    working_dir: /app
+    command: tail -f /dev/null
+    depends_on:
+      - db
 volumes:
   pgdata:

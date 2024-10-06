@@ -3,6 +3,7 @@ import csv
 from pprint import pprint
 
 
+# Mapping of data to row elements on PlanePHD
 MAKE = 1
 MODEL = 2
 YEARS = 3

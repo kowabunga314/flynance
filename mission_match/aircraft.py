@@ -1,6 +1,13 @@
 
 
 class AircraftType():
+  """
+  AircraftType This class models an aircraft type (i.e. Cessna 172SP).
+
+  The AircraftType class represents all of the data that should be considered when purchasing
+    an aircraft. Default data laid out in this class can be used to drive field data in the
+    Aircraft class.
+  """
   FIXED_GEAR = 'fixed'
   MANUAL_GEAR = 'manual'
   AUTO_GEAR = 'auto'
@@ -67,6 +74,11 @@ class AircraftType():
   
 
 class Aircraft(AircraftType):
+  """
+  Aircraft This class represents an instance of an AircraftType.
+
+  The Aircraft class corresponds to a specific aircraft (e.g. a physical object).
+  """
   VISUAL_RULES = 'VFR'
   INSTRUMENT_RULES = 'IFR'
   FLIGHT_RULES = (VISUAL_RULES, INSTRUMENT_RULES)

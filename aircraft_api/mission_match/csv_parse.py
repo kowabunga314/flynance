@@ -36,8 +36,8 @@ def read_aircraft_from_csv(input_file):
       aircraft_types.append(dict(
         make=row[MAKE],
         model=row[MODEL],
-        model_year_start = int(year_start),
-        model_year_end = int(year_end),
+        model_year_start=int(year_start),
+        model_year_end=int(year_end),
         annual_cost=row[ANNUAL_COST],
         tbo=row[TBO],
         engine=row[ENGINE],

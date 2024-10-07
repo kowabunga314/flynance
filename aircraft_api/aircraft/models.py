@@ -2,6 +2,13 @@ from django.contrib.auth.models import User
 from django.db import models
 
 
+class ManufacturerScrape(models.Model):
+    name = models.CharField(max_length=200)
+    url = models.URLField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+
 class Manufacturer(models.Model):
     """
     Manufacturer A manufacturer of aircraft, powerplants, or aftermarket mods and accessories.
@@ -20,6 +27,13 @@ class Manufacturer(models.Model):
     name = models.CharField(max_length=200)
     manufacturer_type = models.CharField(max_length=32, choices=MANUFACTURER_TYPES)
 
+
+class ModelScrape(models.Model):
+    manufacturer = models.ForeignKey(to=ManufacturerScrape, on_delete=models.PROTECT)
+    name = models.CharField(max_length=200, unique=True)
+    url = models.URLField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
 class AbstractAircraft(models.Model):
     FIXED_GEAR = ('fixed', 'Fixed')

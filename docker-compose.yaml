@@ -11,6 +11,11 @@ services:
       - 5432:5432
     volumes:
       - pgdata:/var/lib/postgresql/data
+  redis:
+    image: redis:7.4.0-alpine
+    restart: always
+    ports:
+      - 6379:6379
   api: &api_base
     build: ./aircraft_api
     restart: always
@@ -29,6 +34,14 @@ services:
     restart: 'no'
     command: python manage.py migrate
     ports: []
+  celery:
+    <<: *api_base
+    restart: always
+    command: celery -A flynance worker --loglevel=info
+  celery_beat:
+    <<: *api_base
+    restart: always
+    command: celery -A flynance beat --loglevel=info
   node:
     build:
       context: ./vue-app
@@ -38,12 +51,5 @@ services:
       - 8080:8080
     command: >
       sh -c "http-server dist"
-  mission_match:
-    build: ./mission_match
-    restart: always
-    working_dir: /app
-    command: tail -f /dev/null
-    depends_on:
-      - db
 volumes:
   pgdata:

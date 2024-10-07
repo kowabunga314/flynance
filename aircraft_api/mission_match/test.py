@@ -1,5 +1,6 @@
 
 from planephd_parse import PlanePHDParser
+from pprint import pprint
 import sys
 
 
@@ -16,6 +17,12 @@ def test_identify_aircraft(url=None):
 def test_crawl_aircraft(url=None):
     parser = PlanePHDParser()
     parser.crawl_aircraft()
+
+
+def test_crawl_manufacturers(url=None):
+    parser = PlanePHDParser()
+    manufacturers = parser.identify_manufacturers()
+    pprint(manufacturers)
 
 
 if __name__ == '__main__':

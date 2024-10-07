@@ -9,43 +9,51 @@ class PlanePHDParser:
   host = 'https://planephd.com'
 
   def crawl_aircraft(self):
+    models = []
     model_data = []
 
-    model_paths = self.identify_models()
+    manufacturers = self.identify_manufacturers()
+
+    for manufacturer in manufacturers:
+      print(f'Identifying {manufacturer.get("name")} models.')
+      models = [*models, *self.identify_models(manufacturer)]
 
     for i in range(10):
-      model_data.append(self.get_aircraft_performance(model_paths[i]))
+      model_data.append(self.get_aircraft_performance(models[i]))
 
     pprint(model_data)
 
-
-  def identify_models(self):
-    model_paths = []
+  def identify_manufacturers(self):
+    parser = etree.HTMLParser()
     url_path = '/wizard/manufacturers/'
     url = ''.join([self.host, url_path])
     response = requests.get(url)
-    parser = etree.HTMLParser()
     tree = etree.parse(StringIO(str(response.content)), parser)
     
     # TODO: Get plane manufacturer URL
     manufacturer_xpath = '/html/body/div[1]/div/div/div/div[2]/div[2]/div/div[2]/div/a'
-    manufacturer_url_paths = [e.attrib['href'] for e in tree.xpath(manufacturer_xpath)]
-    
+    manufacturer_data = [{'name': e.text, 'url': e.attrib['href']} for e in tree.xpath(manufacturer_xpath)]
+    return manufacturer_data
+
+  def identify_models(self, manufacturer):
+    parser = etree.HTMLParser()
     # Get manufacturer models pages
-    for manufacturer in manufacturer_url_paths:
-      response = requests.get(''.join([self.host, manufacturer]))
-      tree = etree.parse(StringIO(str(response.content)), parser)
+    response = requests.get(''.join([self.host, manufacturer.get('url')]))
+    tree = etree.parse(StringIO(str(response.content)), parser)
 
-      # Get plane model URLs
-      # TODO: loop requests for model data
-      model_xpath = '/html/body/div[1]/div/div/div/div/div[2]/div[2]/ul/li/div/div/ul/li/a'
-      model_url_paths = [e.attrib['href'] for e in tree.xpath(model_xpath)]
-
-      # Get models pages
-      for model in model_url_paths:
-        model_paths.append(model)
+    # Get plane model URLs
+    # model_xpath = '/html/body/div[2]/div/div/div/div/div[2]/div/ul/li/span/button'
+    model_xpath = '/html/body/div[1]/div/div/div/div/div[2]/div[2]/ul/li/div/div/ul/li/a'
+    models = [
+      {
+        'manufacturer': manufacturer.get('name'),
+        'name': e.text.replace('\\n', '').strip(),
+        'url': e.attrib['href']
+      }
+      for e in tree.xpath(model_xpath)
+    ]
       
-    return model_paths
+    return models
 
   def get_basic_aircraft_data(self, url, tree):
     plane_data = dict(url=url)
@@ -62,9 +70,9 @@ class PlanePHDParser:
 
     return plane_data
   
-  def get_aircraft_performance(self, url=None):
+  def get_aircraft_performance(self, aircraft):
+    url = aircraft.get('url')
     if url is None:
-      # url = 'https://planephd.com/wizard/details/447/MOONEY-M20F-Executive-21-specifications-performance-operating-cost-valuation'
       url = f'{self.host}/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
     elif self.host not in url:
       url = ''.join([self.host, url])

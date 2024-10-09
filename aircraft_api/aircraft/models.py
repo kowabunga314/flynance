@@ -124,8 +124,8 @@ class AircraftModel(AbstractAircraft):
     estimated_value = models.DecimalField(max_digits=9, decimal_places=2, null=True)
     
 
-    manufacturer = models.ForeignKey('Manufacturer', on_delete=models.PROTECT)
-    engine = models.ForeignKey('Engine', on_delete=models.PROTECT)
+    manufacturer = models.ForeignKey('ManufacturerScrape', on_delete=models.PROTECT)
+    engine = models.ForeignKey('Engine', on_delete=models.PROTECT, null=True)
 
     class Meta:
         unique_together = ('model_name', 'model_variant')

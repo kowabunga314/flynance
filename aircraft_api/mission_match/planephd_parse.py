@@ -24,6 +24,14 @@ class PlanePHDParser:
     pprint(model_data)
 
   def identify_manufacturers(self):
+    """
+    identify_manufacturers Finds available manufacturers on PlanePHD website
+
+    Parses PlanePHD wizard to get names and URLs for aircraft manufacturers.
+
+    Returns:
+        dict: The name and URL for a specific aircraft manufacturer
+    """
     parser = etree.HTMLParser()
     url_path = '/wizard/manufacturers/'
     url = ''.join([self.host, url_path])
@@ -36,9 +44,20 @@ class PlanePHDParser:
     return manufacturer_data
 
   def identify_models(self, manufacturer):
+    """
+    identify_models Identifies aircraft manufacturer's aircraft models
+
+    Finds all models associated with a specific manufacturer on PlanePHD's wizard.
+
+    Args:
+        manufacturer (ManufacturerScrape): A record of a manufacturer's page on PlanePHD
+
+    Returns:
+        dict: an aircraft model's name, URL, and manufacturer reference
+    """
     parser = etree.HTMLParser()
     # Get manufacturer models pages
-    response = requests.get(''.join([self.host, manufacturer.get('url')]))
+    response = requests.get(''.join([self.host, manufacturer.url]))
     tree = etree.parse(StringIO(str(response.content)), parser)
 
     # Get plane model URLs
@@ -46,7 +65,7 @@ class PlanePHDParser:
     model_xpath = '/html/body/div[1]/div/div/div/div/div[2]/div[2]/ul/li/div/div/ul/li/a'
     models = [
       {
-        'manufacturer': manufacturer.get('name'),
+        'manufacturer': manufacturer.name,
         'name': e.text.replace('\\n', '').strip(),
         'url': e.attrib['href']
       }
@@ -70,7 +89,18 @@ class PlanePHDParser:
 
     return plane_data
   
-  def get_aircraft_performance(self, aircraft):
+  def get_aircraft_performance(self, aircraft: dict):
+    """
+    get_aircraft_performance Provides data about an aircraft model's performance.
+
+    Scrapes PlanePHD wizard to get detailed performance information about an aircraft model.
+
+    Args:
+        aircraft (dict): Record of aircraft model page as dictionary
+
+    Returns:
+        dict: data mapping of plane performance data
+    """
     url = aircraft.get('url')
     if url is None:
       url = f'{self.host}/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
@@ -83,20 +113,25 @@ class PlanePHDParser:
     plane_data = self.get_basic_aircraft_data(url, tree)
     
     for page_section in xpath_tree:
+      print(f'Handling section {page_section}')
       # pt_keys = [k for k in tree.xpath(xpath_tree[page_section]['keys']['path']) if k in xpath_tree[page_section]['keys']['map']]
       pt_keys = tree.xpath(xpath_tree[page_section]['keys']['path'])
+      print(f'Keys: {pt_keys}')
       pt_values = tree.xpath(xpath_tree[page_section]['values']['path'])
+      print(f'Values: {pt_values}')
 
       # if len(pt_keys) != len(pt_values):
       #   raise ValueError('Key/Value count does not match on performance top scrape')
       
       for i, key in enumerate(pt_keys):
+        print(f'Key {key} in mapping: {key in xpath_tree[page_section]['keys']['map']}')
         if key not in xpath_tree[page_section]['keys']['map']:
           continue
         clean_key = xpath_tree[page_section]['keys']['map'][key]
         match = re.search(xpath_tree[page_section]['values']['map'][clean_key]['pattern'], pt_values[i])
         clean_value = xpath_tree[page_section]['values']['map'][clean_key]['type'](match.group(1).replace(',', ''))
         plane_data[clean_key] = clean_value
+        print(f'Added value {clean_key}: {clean_value}')
 
     return plane_data
 
@@ -267,7 +302,7 @@ xpath_tree = {
   # },
   'engines': {
     'keys': {
-      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dt/p/text()',
+      'path': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dt/p/text()',
       'map': {
         'Manufacturer:': 'engine_manufacturer',
         'Model:': 'engine_model',

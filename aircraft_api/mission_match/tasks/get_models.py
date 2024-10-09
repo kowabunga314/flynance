@@ -18,9 +18,7 @@ def get_model_data(mfgrs: List[str]=[]):
         mfgrs = ManufacturerScrape.objects.all()
 
     for mfgr in mfgrs:
-        mfgr_data = mfgr.__dict__
-        print(mfgr_data)
-        model_data = [*model_data, *parser.identify_models(mfgr_data)]
+        model_data = [*model_data, *parser.identify_models(mfgr)]
     with transaction.atomic():
         for model in model_data:
             # Replace manufacturer string with reference

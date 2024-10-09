@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'util.apps.AuthConfig',
     'aircraft.apps.AircraftConfig',
+    'mission_match.apps.MissionMatchConfig',
 ]
 
 MIDDLEWARE = [
@@ -141,6 +142,11 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Fixtures
+FIXTURE_DIRS = [
+    'aircraft/tests/fixtures'
+]
 
 # Django Rest Framework settings
 REST_FRAMEWORK = {

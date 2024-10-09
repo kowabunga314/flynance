@@ -1,0 +1,4545 @@
+[
+{
+    "model": "aircraft.modelscrape",
+    "pk": 1,
+    "fields": {
+        "manufacturer": 1,
+        "name": "120 (1946 - 1946)",
+        "url": "/wizard/details/146/CESSNA-120-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.330Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 2,
+    "fields": {
+        "manufacturer": 1,
+        "name": "140 (1946 - 1948)",
+        "url": "/wizard/details/147/CESSNA-140-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.342Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 3,
+    "fields": {
+        "manufacturer": 1,
+        "name": "140A (1949 - 1950)",
+        "url": "/wizard/details/156/CESSNA-140A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.342Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 4,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150 (1959 - 1960)",
+        "url": "/wizard/details/148/CESSNA-150-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.343Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 5,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150A (1961 - 1961)",
+        "url": "/wizard/details/157/CESSNA-150A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.343Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 6,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150B (1962 - 1962)",
+        "url": "/wizard/details/158/CESSNA-150B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.344Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 7,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150C (1963 - 1963)",
+        "url": "/wizard/details/159/CESSNA-150C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.344Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 8,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150D (1964 - 1964)",
+        "url": "/wizard/details/160/CESSNA-150D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.345Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 9,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150E (1965 - 1965)",
+        "url": "/wizard/details/161/CESSNA-150E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.345Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 10,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150F (1966 - 1966)",
+        "url": "/wizard/details/162/CESSNA-150F-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.345Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 11,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150G (1967 - 1967)",
+        "url": "/wizard/details/163/CESSNA-150G-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.346Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 12,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150H (1968 - 1968)",
+        "url": "/wizard/details/164/CESSNA-150H-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.346Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 13,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150J on Floats (1969 - 1969)",
+        "url": "/wizard/details/166/CESSNA-150J-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.347Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 14,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150J (1969 - 1969)",
+        "url": "/wizard/details/165/CESSNA-150J-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.347Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 15,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150K (1970 - 1970)",
+        "url": "/wizard/details/167/CESSNA-150K-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.348Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 16,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A150K Aerobat (1970 - 1970)",
+        "url": "/wizard/details/321/CESSNA-A150K-Aerobat-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.349Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 17,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A150L Aerobat (1971 - 1973)",
+        "url": "/wizard/details/322/CESSNA-A150L-Aerobat-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.350Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 18,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150L (1971 - 1974)",
+        "url": "/wizard/details/168/CESSNA-150L-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.350Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 19,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A150L Aerobat (1974 - 1974)",
+        "url": "/wizard/details/323/CESSNA-A150L-Aerobat-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.350Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 20,
+    "fields": {
+        "manufacturer": 1,
+        "name": "150M (1975 - 1977)",
+        "url": "/wizard/details/169/CESSNA-150M-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.351Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 21,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A150M Aerobat (1975 - 1977)",
+        "url": "/wizard/details/324/CESSNA-A150M-Aerobat-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.351Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 22,
+    "fields": {
+        "manufacturer": 1,
+        "name": "152 (1978 - 1984)",
+        "url": "/wizard/details/170/CESSNA-152-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.352Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 23,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A152 Aerobat (1978 - 1984)",
+        "url": "/wizard/details/325/CESSNA-A152-Aerobat-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.352Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 24,
+    "fields": {
+        "manufacturer": 1,
+        "name": "162 Skycatcher (2009 - 2013)",
+        "url": "/wizard/details/866/CESSNA-162-Skycatcher-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.353Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 25,
+    "fields": {
+        "manufacturer": 1,
+        "name": "162 (2009 - 2013)",
+        "url": "/wizard/details/844/CESSNA-162-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.356Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 26,
+    "fields": {
+        "manufacturer": 1,
+        "name": "170 (1948 - 1948)",
+        "url": "/wizard/details/149/CESSNA-170-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.356Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 27,
+    "fields": {
+        "manufacturer": 1,
+        "name": "170A (1949 - 1951)",
+        "url": "/wizard/details/171/CESSNA-170A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.357Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 28,
+    "fields": {
+        "manufacturer": 1,
+        "name": "170B (1952 - 1956)",
+        "url": "/wizard/details/172/CESSNA-170B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.357Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 29,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172 (1956 - 1959)",
+        "url": "/wizard/details/150/CESSNA-172-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.358Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 30,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172A (1960 - 1960)",
+        "url": "/wizard/details/173/CESSNA-172A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.358Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 31,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172B (1961 - 1961)",
+        "url": "/wizard/details/174/CESSNA-172B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.358Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 32,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172C (1962 - 1962)",
+        "url": "/wizard/details/175/CESSNA-172C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.359Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 33,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172D (1963 - 1963)",
+        "url": "/wizard/details/176/CESSNA-172D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.359Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 34,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172E (1964 - 1964)",
+        "url": "/wizard/details/177/CESSNA-172E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.360Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 35,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172F (1965 - 1965)",
+        "url": "/wizard/details/178/CESSNA-172F-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.360Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 36,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172G (1966 - 1966)",
+        "url": "/wizard/details/179/CESSNA-172G-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.360Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 37,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172H (1967 - 1967)",
+        "url": "/wizard/details/180/CESSNA-172H-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.361Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 38,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172I Skyhawk (1968 - 1968)",
+        "url": "/wizard/details/181/CESSNA-172I-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.361Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 39,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172K on Floats (1969 - 1970)",
+        "url": "/wizard/details/182/CESSNA-172K-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.362Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 40,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172K Skyhawk (1969 - 1970)",
+        "url": "/wizard/details/183/CESSNA-172K-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.362Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 41,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172L on Floats (1971 - 1972)",
+        "url": "/wizard/details/184/CESSNA-172L-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.362Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 42,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172L Skyhawk (1971 - 1972)",
+        "url": "/wizard/details/185/CESSNA-172L-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.363Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 43,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172M Skyhawk (1973 - 1975)",
+        "url": "/wizard/details/188/CESSNA-172M-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.363Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 44,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172M on Floats (1973 - 1973)",
+        "url": "/wizard/details/186/CESSNA-172M-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.364Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 45,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172M on Floats (1974 - 1976)",
+        "url": "/wizard/details/187/CESSNA-172M-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.364Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 46,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172M Skyhawk (1976 - 1976)",
+        "url": "/wizard/details/189/CESSNA-172M-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.364Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 47,
+    "fields": {
+        "manufacturer": 1,
+        "name": "R172K Hawk XP with Floats (1977 - 1981)",
+        "url": "/wizard/details/347/CESSNA-R172K-Hawk-XP-with-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.366Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 48,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172N Hawk 100 (1977 - 1977)",
+        "url": "/wizard/details/190/CESSNA-172N-Hawk-100-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.369Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 49,
+    "fields": {
+        "manufacturer": 1,
+        "name": "R172K Hawk XP (1977 - 1977)",
+        "url": "/wizard/details/346/CESSNA-R172K-Hawk-XP-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.370Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 50,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172N Hawk 100 on Floats (1978 - 1980)",
+        "url": "/wizard/details/191/CESSNA-172N-Hawk-100-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.370Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 51,
+    "fields": {
+        "manufacturer": 1,
+        "name": "R172K Hawk XP (1978 - 1981)",
+        "url": "/wizard/details/345/CESSNA-R172K-Hawk-XP-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.370Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 52,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172N Hawk 100 (1978 - 1980)",
+        "url": "/wizard/details/192/CESSNA-172N-Hawk-100-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.371Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 53,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172RG II Cutlass (1980 - 1985)",
+        "url": "/wizard/details/197/CESSNA-172RG-II-Cutlass-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.371Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 54,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172P II Skyhawk (1981 - 1986)",
+        "url": "/wizard/details/194/CESSNA-172P-II-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.372Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 55,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172P Hawk 100 on Floats (1981 - 1986)",
+        "url": "/wizard/details/193/CESSNA-172P-Hawk-100-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.372Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 56,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172Q Cutlass (1983 - 1984)",
+        "url": "/wizard/details/195/CESSNA-172Q-Cutlass-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.373Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 57,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172R Skyhawk (1997 - 2012)",
+        "url": "/wizard/details/196/CESSNA-172R-Skyhawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.373Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 58,
+    "fields": {
+        "manufacturer": 1,
+        "name": "172S Skyhawk SP (1998 - 2018)",
+        "url": "/wizard/details/198/CESSNA-172S-Skyhawk-SP-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.374Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 59,
+    "fields": {
+        "manufacturer": 1,
+        "name": "175 (1958 - 1959)",
+        "url": "/wizard/details/199/CESSNA-175-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.374Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 60,
+    "fields": {
+        "manufacturer": 1,
+        "name": "175A (1960 - 1960)",
+        "url": "/wizard/details/200/CESSNA-175A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.374Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 61,
+    "fields": {
+        "manufacturer": 1,
+        "name": "175B (1961 - 1961)",
+        "url": "/wizard/details/201/CESSNA-175B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.375Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 62,
+    "fields": {
+        "manufacturer": 1,
+        "name": "175C (1962 - 1962)",
+        "url": "/wizard/details/202/CESSNA-175C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.375Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 63,
+    "fields": {
+        "manufacturer": 1,
+        "name": "177 Cardinal (1968 - 1968)",
+        "url": "/wizard/details/203/CESSNA-177-Cardinal-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.376Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 64,
+    "fields": {
+        "manufacturer": 1,
+        "name": "177A Cardinal (1969 - 1969)",
+        "url": "/wizard/details/204/CESSNA-177A-Cardinal-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.376Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 65,
+    "fields": {
+        "manufacturer": 1,
+        "name": "177B Cardinal (1970 - 1974)",
+        "url": "/wizard/details/206/CESSNA-177B-Cardinal-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.376Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 66,
+    "fields": {
+        "manufacturer": 1,
+        "name": "177RG Cardinal (1971 - 1971)",
+        "url": "/wizard/details/207/CESSNA-177RG-Cardinal-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.377Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 67,
+    "fields": {
+        "manufacturer": 1,
+        "name": "177RG Cardinal (1972 - 1978)",
+        "url": "/wizard/details/208/CESSNA-177RG-Cardinal-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.377Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 68,
+    "fields": {
+        "manufacturer": 1,
+        "name": "177B Cardinal (1975 - 1978)",
+        "url": "/wizard/details/205/CESSNA-177B-Cardinal-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.378Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 69,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180 (1953 - 1955)",
+        "url": "/wizard/details/151/CESSNA-180-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.378Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 70,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180A (1957 - 1958)",
+        "url": "/wizard/details/209/CESSNA-180A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.382Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 71,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180B (1959 - 1959)",
+        "url": "/wizard/details/210/CESSNA-180B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.383Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 72,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180C (1960 - 1960)",
+        "url": "/wizard/details/211/CESSNA-180C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.383Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 73,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180D (1961 - 1961)",
+        "url": "/wizard/details/212/CESSNA-180D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.384Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 74,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180E (1962 - 1962)",
+        "url": "/wizard/details/213/CESSNA-180E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.384Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 75,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180F (1963 - 1963)",
+        "url": "/wizard/details/214/CESSNA-180F-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.385Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 76,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180G (1964 - 1964)",
+        "url": "/wizard/details/215/CESSNA-180G-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.385Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 77,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180H (1965 - 1972)",
+        "url": "/wizard/details/216/CESSNA-180H-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.385Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 78,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180J (1973 - 1976)",
+        "url": "/wizard/details/217/CESSNA-180J-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.386Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 79,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180J on Skis (1973 - 1976)",
+        "url": "/wizard/details/219/CESSNA-180J-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.386Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 80,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180J on Amphibian Floats (1973 - 1975)",
+        "url": "/wizard/details/221/CESSNA-180J-on-Amphibian-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.387Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 81,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180J on Floats (1973 - 1976)",
+        "url": "/wizard/details/218/CESSNA-180J-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.387Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 82,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180J on Amphibian Floats (1976 - 1976)",
+        "url": "/wizard/details/220/CESSNA-180J-on-Amphibian-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.387Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 83,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180K on Skis (1977 - 1978)",
+        "url": "/wizard/details/226/CESSNA-180K-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.388Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 84,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180K (1977 - 1977)",
+        "url": "/wizard/details/222/CESSNA-180K-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.388Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 85,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180K on Floats (1977 - 1981)",
+        "url": "/wizard/details/224/CESSNA-180K-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.389Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 86,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180K on Amphibian Floats (1977 - 1981)",
+        "url": "/wizard/details/227/CESSNA-180K-on-Amphibian-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.389Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 87,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180K (1978 - 1981)",
+        "url": "/wizard/details/223/CESSNA-180K-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.389Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 88,
+    "fields": {
+        "manufacturer": 1,
+        "name": "180K on Skis (1979 - 1981)",
+        "url": "/wizard/details/225/CESSNA-180K-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.390Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 89,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182 (1956 - 1956)",
+        "url": "/wizard/details/152/CESSNA-182-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.390Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 90,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182A Skylane (1957 - 1958)",
+        "url": "/wizard/details/228/CESSNA-182A-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.391Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 91,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182B Skylane (1959 - 1959)",
+        "url": "/wizard/details/229/CESSNA-182B-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.624Z",
+        "updated_at": "2024-10-07T03:16:44.391Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 92,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182C Skylane (1960 - 1960)",
+        "url": "/wizard/details/230/CESSNA-182C-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.391Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 93,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182D Skylane (1961 - 1961)",
+        "url": "/wizard/details/231/CESSNA-182D-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.395Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 94,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182E Skylane (1962 - 1962)",
+        "url": "/wizard/details/232/CESSNA-182E-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.395Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 95,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182F Skylane (1963 - 1963)",
+        "url": "/wizard/details/233/CESSNA-182F-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.396Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 96,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182G Skylane (1964 - 1964)",
+        "url": "/wizard/details/234/CESSNA-182G-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.396Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 97,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182H Skylane (1965 - 1965)",
+        "url": "/wizard/details/235/CESSNA-182H-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.397Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 98,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182J Skylane (1966 - 1966)",
+        "url": "/wizard/details/236/CESSNA-182J-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.397Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 99,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182K Skylane (1967 - 1967)",
+        "url": "/wizard/details/237/CESSNA-182K-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.397Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 100,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182L Skylane (1968 - 1968)",
+        "url": "/wizard/details/238/CESSNA-182L-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.398Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 101,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182M Skylane (1969 - 1969)",
+        "url": "/wizard/details/239/CESSNA-182M-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.398Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 102,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182N Skylane (1970 - 1971)",
+        "url": "/wizard/details/240/CESSNA-182N-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.399Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 103,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182P Skylane (1972 - 1976)",
+        "url": "/wizard/details/241/CESSNA-182P-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.399Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 104,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182Q II Skylane (1977 - 1980)",
+        "url": "/wizard/details/350/CESSNA-182Q-II-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.399Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 105,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182Q Skylane (1977 - 1978)",
+        "url": "/wizard/details/244/CESSNA-182Q-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.400Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 106,
+    "fields": {
+        "manufacturer": 1,
+        "name": "R182RG Skylane II (1978 - 1986)",
+        "url": "/wizard/details/348/CESSNA-R182RG-Skylane-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.400Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 107,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182Q Skylane (1979 - 1980)",
+        "url": "/wizard/details/243/CESSNA-182Q-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.401Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 108,
+    "fields": {
+        "manufacturer": 1,
+        "name": "R182RG Turbo Skylane II (1979 - 1986)",
+        "url": "/wizard/details/349/CESSNA-R182RG-Turbo-Skylane-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.401Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 109,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182S  Skylane (1997 - 2000)",
+        "url": "/wizard/details/245/CESSNA-182S--Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.402Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 110,
+    "fields": {
+        "manufacturer": 1,
+        "name": "182T Skylane (2001 - 2018)",
+        "url": "/wizard/details/246/CESSNA-182T-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.402Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 111,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T182T (2001 - 2013)",
+        "url": "/wizard/details/874/CESSNA-T182T-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.402Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 112,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185A Skywagon (1962 - 1962)",
+        "url": "/wizard/details/247/CESSNA-185A-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.403Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 113,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185B Skywagon (1963 - 1963)",
+        "url": "/wizard/details/248/CESSNA-185B-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.403Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 114,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185C Skywagon (1964 - 1964)",
+        "url": "/wizard/details/249/CESSNA-185C-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.404Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 115,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185D Skywagon (1965 - 1965)",
+        "url": "/wizard/details/250/CESSNA-185D-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.408Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 116,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A185E Skywagon (1966 - 1972)",
+        "url": "/wizard/details/326/CESSNA-A185E-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.409Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 117,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185E Skywagon (1966 - 1966)",
+        "url": "/wizard/details/251/CESSNA-185E-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.409Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 118,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A185F on Floats (1973 - 1978)",
+        "url": "/wizard/details/328/CESSNA-A185F-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.410Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 119,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185F on Amphibian Floats (1973 - 1978)",
+        "url": "/wizard/details/253/CESSNA-185F-on-Amphibian-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.410Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 120,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A185F on Skis (1973 - 1985)",
+        "url": "/wizard/details/329/CESSNA-A185F-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.411Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 121,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A185F II Skywagon (1973 - 1985)",
+        "url": "/wizard/details/330/CESSNA-A185F-II-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.411Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 122,
+    "fields": {
+        "manufacturer": 1,
+        "name": "185F on Amphibian Floats (1979 - 1985)",
+        "url": "/wizard/details/252/CESSNA-185F-on-Amphibian-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.411Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 123,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A185F on Floats (1979 - 1985)",
+        "url": "/wizard/details/327/CESSNA-A185F-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.412Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 124,
+    "fields": {
+        "manufacturer": 1,
+        "name": "188 AG Wagon (1967 - 1971)",
+        "url": "/wizard/details/256/CESSNA-188-AG-Wagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.412Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 125,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A188A (1970 - 1971)",
+        "url": "/wizard/details/333/CESSNA-A188A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.413Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 126,
+    "fields": {
+        "manufacturer": 1,
+        "name": "188A (1970 - 1971)",
+        "url": "/wizard/details/257/CESSNA-188A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.413Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 127,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A188B Wagon (1972 - 1981)",
+        "url": "/wizard/details/336/CESSNA-A188B-Wagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.414Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 128,
+    "fields": {
+        "manufacturer": 1,
+        "name": "188 AG Pickup (1972 - 1972)",
+        "url": "/wizard/details/254/CESSNA-188-AG-Pickup-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.414Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 129,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A188 AG Wagon (1972 - 1978)",
+        "url": "/wizard/details/332/CESSNA-A188-AG-Wagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.414Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 130,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A188 AG Truck (1972 - 1978)",
+        "url": "/wizard/details/331/CESSNA-A188-AG-Truck-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.415Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 131,
+    "fields": {
+        "manufacturer": 1,
+        "name": "188B (1972 - 1972)",
+        "url": "/wizard/details/258/CESSNA-188B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.415Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 132,
+    "fields": {
+        "manufacturer": 1,
+        "name": "188 AG Pickup (1973 - 1975)",
+        "url": "/wizard/details/255/CESSNA-188-AG-Pickup-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.415Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 133,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A188B AG Truck with Dispersal System (1979 - 1983)",
+        "url": "/wizard/details/334/CESSNA-A188B-AG-Truck-with-Dispersal-System-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.416Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 134,
+    "fields": {
+        "manufacturer": 1,
+        "name": "A188B AG Wagon with Dispersal System (1979 - 1981)",
+        "url": "/wizard/details/335/CESSNA-A188B-AG-Wagon-with-Dispersal-System-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.416Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 135,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T188C AG Husky (1979 - 1980)",
+        "url": "/wizard/details/352/CESSNA-T188C-AG-Husky-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.417Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 136,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T188C AG Husky (1981 - 1983)",
+        "url": "/wizard/details/351/CESSNA-T188C-AG-Husky-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.420Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 137,
+    "fields": {
+        "manufacturer": 1,
+        "name": "190 (1947 - 1947)",
+        "url": "/wizard/details/153/CESSNA-190-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.421Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 138,
+    "fields": {
+        "manufacturer": 1,
+        "name": "195 (1947 - 1947)",
+        "url": "/wizard/details/154/CESSNA-195-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.421Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 139,
+    "fields": {
+        "manufacturer": 1,
+        "name": "195A (1947 - 1947)",
+        "url": "/wizard/details/259/CESSNA-195A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.422Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 140,
+    "fields": {
+        "manufacturer": 1,
+        "name": "195B (1952 - 1952)",
+        "url": "/wizard/details/260/CESSNA-195B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.422Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 141,
+    "fields": {
+        "manufacturer": 1,
+        "name": "206 (1964 - 1964)",
+        "url": "/wizard/details/155/CESSNA-206-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.423Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 142,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206 Super Skywagon (1965 - 1965)",
+        "url": "/wizard/details/397/CESSNA-U206-Super-Skywagon-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.424Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 143,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P206 Super Skylane (1965 - 1965)",
+        "url": "/wizard/details/337/CESSNA-P206-Super-Skylane-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.424Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 144,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206A (1966 - 1966)",
+        "url": "/wizard/details/381/CESSNA-TU206A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.425Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 145,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P206A (1966 - 1966)",
+        "url": "/wizard/details/338/CESSNA-P206A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.425Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 146,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206A (1966 - 1966)",
+        "url": "/wizard/details/398/CESSNA-U206A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.426Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 147,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TP206A (1966 - 1966)",
+        "url": "/wizard/details/376/CESSNA-TP206A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.426Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 148,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P206B (1967 - 1967)",
+        "url": "/wizard/details/339/CESSNA-P206B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.426Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 149,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TP206B (1967 - 1967)",
+        "url": "/wizard/details/377/CESSNA-TP206B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.427Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 150,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206B (1967 - 1967)",
+        "url": "/wizard/details/399/CESSNA-U206B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.427Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 151,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206B (1967 - 1967)",
+        "url": "/wizard/details/382/CESSNA-TU206B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.427Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 152,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206C on Floats (1968 - 1968)",
+        "url": "/wizard/details/384/CESSNA-TU206C-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.428Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 153,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206C Skywagon with Floats (1968 - 1968)",
+        "url": "/wizard/details/574/CESSNA-U206C-Skywagon-with-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.428Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 154,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TP206C (1968 - 1968)",
+        "url": "/wizard/details/378/CESSNA-TP206C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.429Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 155,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P206C (1968 - 1968)",
+        "url": "/wizard/details/340/CESSNA-P206C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.429Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 156,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206C (1968 - 1968)",
+        "url": "/wizard/details/400/CESSNA-U206C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.429Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 157,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206C (1968 - 1968)",
+        "url": "/wizard/details/383/CESSNA-TU206C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.430Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 158,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206D (1969 - 1969)",
+        "url": "/wizard/details/385/CESSNA-TU206D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.430Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 159,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206D on Floats (1969 - 1969)",
+        "url": "/wizard/details/386/CESSNA-TU206D-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.434Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 160,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TP206D (1969 - 1969)",
+        "url": "/wizard/details/379/CESSNA-TP206D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.435Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 161,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206D (1969 - 1969)",
+        "url": "/wizard/details/401/CESSNA-U206D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.435Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 162,
+    "fields": {
+        "manufacturer": 1,
+        "name": "207 (1969 - 1976)",
+        "url": "/wizard/details/262/CESSNA-207-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.435Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 163,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P206D (1969 - 1969)",
+        "url": "/wizard/details/341/CESSNA-P206D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.436Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 164,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206D Skywagon with Floats (1969 - 1969)",
+        "url": "/wizard/details/575/CESSNA-U206D-Skywagon-with-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.436Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 165,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TP206E (1970 - 1970)",
+        "url": "/wizard/details/380/CESSNA-TP206E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.437Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 166,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206E (1970 - 1971)",
+        "url": "/wizard/details/402/CESSNA-U206E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.437Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 167,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206E Super Skywagon on Skis (1970 - 1971)",
+        "url": "/wizard/details/403/CESSNA-U206E-Super-Skywagon-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.438Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 168,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P206E (1970 - 1970)",
+        "url": "/wizard/details/342/CESSNA-P206E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.438Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 169,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206E Turbo Stationair (1970 - 1971)",
+        "url": "/wizard/details/389/CESSNA-TU206E-Turbo-Stationair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.438Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 170,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206E on Skis (1970 - 1971)",
+        "url": "/wizard/details/388/CESSNA-TU206E-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.439Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 171,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206E on Floats (1970 - 1971)",
+        "url": "/wizard/details/387/CESSNA-TU206E-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.439Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 172,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206F on Skis (1972 - 1975)",
+        "url": "/wizard/details/392/CESSNA-TU206F-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.440Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 173,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206F Stationair on Skis (1972 - 1975)",
+        "url": "/wizard/details/407/CESSNA-U206F-Stationair-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.440Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 174,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206F Turbo Stationair (1972 - 1976)",
+        "url": "/wizard/details/393/CESSNA-TU206F-Turbo-Stationair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.440Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 175,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206F on Floats (1972 - 1976)",
+        "url": "/wizard/details/390/CESSNA-TU206F-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.441Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 176,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206F on Floats (1975 - 1976)",
+        "url": "/wizard/details/404/CESSNA-U206F-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.441Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 177,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206F Stationair II (1975 - 1976)",
+        "url": "/wizard/details/405/CESSNA-U206F-Stationair-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.442Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 178,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206F on Skis (1976 - 1976)",
+        "url": "/wizard/details/391/CESSNA-TU206F-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.442Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 179,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206F Stationair II on Skis (1976 - 1976)",
+        "url": "/wizard/details/406/CESSNA-U206F-Stationair-II-on-Skis-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.443Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 180,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206G Turbo Stationair II (1977 - 1986)",
+        "url": "/wizard/details/394/CESSNA-TU206G-Turbo-Stationair-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.446Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 181,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206G Turbo Stationair II (1977 - 1978)",
+        "url": "/wizard/details/396/CESSNA-TU206G-Turbo-Stationair-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.446Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 182,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206G Stationair 6 on Floats (1977 - 1978)",
+        "url": "/wizard/details/409/CESSNA-U206G-Stationair-6-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.446Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 183,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206G Stationair II (1977 - 1986)",
+        "url": "/wizard/details/408/CESSNA-U206G-Stationair-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.447Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 184,
+    "fields": {
+        "manufacturer": 1,
+        "name": "U206G Stationair 6 II on Floats (1979 - 1986)",
+        "url": "/wizard/details/410/CESSNA-U206G-Stationair-6-II-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.447Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 185,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TU206G Turbo Stationair II (1979 - 1986)",
+        "url": "/wizard/details/395/CESSNA-TU206G-Turbo-Stationair-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.448Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 186,
+    "fields": {
+        "manufacturer": 1,
+        "name": "206 TURBINE (1985 - 2007)",
+        "url": "/wizard/details/940/CESSNA-206-TURBINE-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.448Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 187,
+    "fields": {
+        "manufacturer": 1,
+        "name": "206H Stationair (1998 - 2013)",
+        "url": "/wizard/details/847/CESSNA-206H-Stationair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.449Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 188,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T206H Turbo Stationair (1998 - 2017)",
+        "url": "/wizard/details/848/CESSNA-T206H-Turbo-Stationair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.449Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 189,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T207 (1973 - 1976)",
+        "url": "/wizard/details/353/CESSNA-T207-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.449Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 190,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210A Two Ten (1961 - 1961)",
+        "url": "/wizard/details/263/CESSNA-210A-Two-Ten-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.450Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 191,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210B Two Ten (1962 - 1962)",
+        "url": "/wizard/details/264/CESSNA-210B-Two-Ten-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.450Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 192,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210C Two Ten (1963 - 1963)",
+        "url": "/wizard/details/265/CESSNA-210C-Two-Ten-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.451Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 193,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210D Centurion (1964 - 1964)",
+        "url": "/wizard/details/266/CESSNA-210D-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.451Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 194,
+    "fields": {
+        "manufacturer": 1,
+        "name": "205A (1964 - 1964)",
+        "url": "/wizard/details/261/CESSNA-205A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.451Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 195,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210E Centurion (1965 - 1965)",
+        "url": "/wizard/details/267/CESSNA-210E-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.452Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 196,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210F Centurion (1966 - 1966)",
+        "url": "/wizard/details/268/CESSNA-210F-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.452Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 197,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210F Turbo Centurion (1966 - 1966)",
+        "url": "/wizard/details/354/CESSNA-T210F-Turbo-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.453Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 198,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210G Centurion (1967 - 1967)",
+        "url": "/wizard/details/269/CESSNA-210G-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.453Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 199,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210G Turbo Centurion (1967 - 1967)",
+        "url": "/wizard/details/355/CESSNA-T210G-Turbo-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.625Z",
+        "updated_at": "2024-10-07T03:16:44.453Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 200,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210H Turbo Centurion (1968 - 1968)",
+        "url": "/wizard/details/356/CESSNA-T210H-Turbo-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.454Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 201,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210H Centurion (1968 - 1968)",
+        "url": "/wizard/details/270/CESSNA-210H-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.457Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 202,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210J Centurion (1969 - 1969)",
+        "url": "/wizard/details/271/CESSNA-210J-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.457Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 203,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210J Turbo Centurion (1969 - 1969)",
+        "url": "/wizard/details/357/CESSNA-T210J-Turbo-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.458Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 204,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210K Turbo (1970 - 1971)",
+        "url": "/wizard/details/358/CESSNA-T210K-Turbo-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.458Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 205,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210K Centurion (1970 - 1971)",
+        "url": "/wizard/details/272/CESSNA-210K-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.459Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 206,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210L Centurion (1972 - 1976)",
+        "url": "/wizard/details/273/CESSNA-210L-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.459Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 207,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210L Turbo (1972 - 1976)",
+        "url": "/wizard/details/359/CESSNA-T210L-Turbo-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.459Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 208,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210M Turbo (1977 - 1978)",
+        "url": "/wizard/details/360/CESSNA-T210M-Turbo-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.460Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 209,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210N Centurion Turbo (1979 - 1984)",
+        "url": "/wizard/details/361/CESSNA-T210N-Centurion-Turbo-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.460Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 210,
+    "fields": {
+        "manufacturer": 1,
+        "name": "T210R Centurion Turbo (1985 - 1986)",
+        "url": "/wizard/details/362/CESSNA-T210R-Centurion-Turbo-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.461Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 211,
+    "fields": {
+        "manufacturer": 1,
+        "name": "210R Centurion (1985 - 1986)",
+        "url": "/wizard/details/573/CESSNA-210R-Centurion-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.461Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 212,
+    "fields": {
+        "manufacturer": 1,
+        "name": "350 (2003 - 2011)",
+        "url": "/wizard/details/845/CESSNA-350-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.461Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 213,
+    "fields": {
+        "manufacturer": 1,
+        "name": "400 (2004 - 2010)",
+        "url": "/wizard/details/846/CESSNA-400-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.462Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 214,
+    "fields": {
+        "manufacturer": 1,
+        "name": "TTx (2013 - 2018)",
+        "url": "/wizard/details/837/CESSNA-TTx-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.462Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 215,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P210N Centurion II (1978 - 1983)",
+        "url": "/wizard/details/343/CESSNA-P210N-Centurion-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.651Z",
+        "updated_at": "2024-10-07T03:16:44.463Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 216,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P210 SILVER EAGLE (1981 - 2014)",
+        "url": "/wizard/details/945/CESSNA-P210-SILVER-EAGLE-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.463Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 217,
+    "fields": {
+        "manufacturer": 1,
+        "name": "P210R (1985 - 1986)",
+        "url": "/wizard/details/344/CESSNA-P210R-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.463Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 218,
+    "fields": {
+        "manufacturer": 2,
+        "name": "B19 Sport 150 (1970 - 1976)",
+        "url": "/wizard/details/71/BEECHCRAFT-B19-Sport-150-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.464Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 219,
+    "fields": {
+        "manufacturer": 2,
+        "name": "B19 Sport 150 (1977 - 1979)",
+        "url": "/wizard/details/70/BEECHCRAFT-B19-Sport-150-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.464Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 220,
+    "fields": {
+        "manufacturer": 2,
+        "name": "23 Musketeer (1963 - 1963)",
+        "url": "/wizard/details/33/BEECHCRAFT-23-Musketeer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.465Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 221,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A23 Musketeer II (1964 - 1966)",
+        "url": "/wizard/details/54/BEECHCRAFT-A23-Musketeer-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.465Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 222,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A23A Musketeer (1966 - 1966)",
+        "url": "/wizard/details/57/BEECHCRAFT-A23A-Musketeer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.469Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 223,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A23-19 Musketeer Sport III (1966 - 1967)",
+        "url": "/wizard/details/55/BEECHCRAFT-A23-19-Musketeer-Sport-III-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.469Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 224,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A23-24 Musketeer Super III (1966 - 1969)",
+        "url": "/wizard/details/56/BEECHCRAFT-A23-24-Musketeer-Super-III-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.470Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 225,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A23A Musketeer Custom III (1967 - 1968)",
+        "url": "/wizard/details/58/BEECHCRAFT-A23A-Musketeer-Custom-III-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.470Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 226,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C23 Sundowner (1970 - 1976)",
+        "url": "/wizard/details/87/BEECHCRAFT-C23-Sundowner-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.470Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 227,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C23 Sundowner (1977 - 1983)",
+        "url": "/wizard/details/86/BEECHCRAFT-C23-Sundowner-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.471Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 228,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A24R Sierra 200 (1970 - 1972)",
+        "url": "/wizard/details/59/BEECHCRAFT-A24R-Sierra-200-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.471Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 229,
+    "fields": {
+        "manufacturer": 2,
+        "name": "B24R Sierra 200 (1973 - 1976)",
+        "url": "/wizard/details/72/BEECHCRAFT-B24R-Sierra-200-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.472Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 230,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C24R Sierra 200 (1977 - 1977)",
+        "url": "/wizard/details/89/BEECHCRAFT-C24R-Sierra-200-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.472Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 231,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C24R Sierra 200 (1978 - 1983)",
+        "url": "/wizard/details/88/BEECHCRAFT-C24R-Sierra-200-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.472Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 232,
+    "fields": {
+        "manufacturer": 2,
+        "name": "33 Debonair (1960 - 1960)",
+        "url": "/wizard/details/34/BEECHCRAFT-33-Debonair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.473Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 233,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A33 Debonair (1961 - 1961)",
+        "url": "/wizard/details/60/BEECHCRAFT-A33-Debonair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.473Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 234,
+    "fields": {
+        "manufacturer": 2,
+        "name": "B33 Debonair (1962 - 1964)",
+        "url": "/wizard/details/73/BEECHCRAFT-B33-Debonair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.474Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 235,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C33 Debonair (1965 - 1967)",
+        "url": "/wizard/details/90/BEECHCRAFT-C33-Debonair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.474Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 236,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C33A Debonair (1966 - 1967)",
+        "url": "/wizard/details/91/BEECHCRAFT-C33A-Debonair-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.474Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 237,
+    "fields": {
+        "manufacturer": 2,
+        "name": "E33C Bonanza (1968 - 1969)",
+        "url": "/wizard/details/105/BEECHCRAFT-E33C-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.475Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 238,
+    "fields": {
+        "manufacturer": 2,
+        "name": "E33A Bonanza (1968 - 1969)",
+        "url": "/wizard/details/104/BEECHCRAFT-E33A-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.475Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 239,
+    "fields": {
+        "manufacturer": 2,
+        "name": "F33C Bonanza (1970 - 1970)",
+        "url": "/wizard/details/110/BEECHCRAFT-F33C-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.476Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 240,
+    "fields": {
+        "manufacturer": 2,
+        "name": "F33A Bonanza (1970 - 1994)",
+        "url": "/wizard/details/872/BEECHCRAFT-F33A-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.476Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 241,
+    "fields": {
+        "manufacturer": 2,
+        "name": "G33 Bonanza (1972 - 1973)",
+        "url": "/wizard/details/114/BEECHCRAFT-G33-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.476Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 242,
+    "fields": {
+        "manufacturer": 2,
+        "name": "35 Bonanza (1947 - 1948)",
+        "url": "/wizard/details/35/BEECHCRAFT-35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.477Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 243,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A35 Bonanza (1949 - 1949)",
+        "url": "/wizard/details/61/BEECHCRAFT-A35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.480Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 244,
+    "fields": {
+        "manufacturer": 2,
+        "name": "B35 Bonanza (1950 - 1950)",
+        "url": "/wizard/details/74/BEECHCRAFT-B35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.481Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 245,
+    "fields": {
+        "manufacturer": 2,
+        "name": "C35 Bonanza (1951 - 1951)",
+        "url": "/wizard/details/92/BEECHCRAFT-C35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.481Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 246,
+    "fields": {
+        "manufacturer": 2,
+        "name": "D35 Bonanza (1953 - 1953)",
+        "url": "/wizard/details/96/BEECHCRAFT-D35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.481Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 247,
+    "fields": {
+        "manufacturer": 2,
+        "name": "E35 Bonanza (1954 - 1954)",
+        "url": "/wizard/details/106/BEECHCRAFT-E35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.482Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 248,
+    "fields": {
+        "manufacturer": 2,
+        "name": "F35 Bonanza (1955 - 1955)",
+        "url": "/wizard/details/111/BEECHCRAFT-F35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.482Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 249,
+    "fields": {
+        "manufacturer": 2,
+        "name": "G35 Bonanza (1956 - 1956)",
+        "url": "/wizard/details/115/BEECHCRAFT-G35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.483Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 250,
+    "fields": {
+        "manufacturer": 2,
+        "name": "H35 Bonanza (1957 - 1957)",
+        "url": "/wizard/details/118/BEECHCRAFT-H35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.483Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 251,
+    "fields": {
+        "manufacturer": 2,
+        "name": "J35 Bonanza (1958 - 1958)",
+        "url": "/wizard/details/120/BEECHCRAFT-J35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.483Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 252,
+    "fields": {
+        "manufacturer": 2,
+        "name": "K35 Bonanza (1959 - 1959)",
+        "url": "/wizard/details/122/BEECHCRAFT-K35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.484Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 253,
+    "fields": {
+        "manufacturer": 2,
+        "name": "M35 Bonanza (1960 - 1960)",
+        "url": "/wizard/details/123/BEECHCRAFT-M35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.484Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 254,
+    "fields": {
+        "manufacturer": 2,
+        "name": "N35 Bonanza (1961 - 1961)",
+        "url": "/wizard/details/124/BEECHCRAFT-N35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.485Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 255,
+    "fields": {
+        "manufacturer": 2,
+        "name": "P35 Bonanza (1962 - 1963)",
+        "url": "/wizard/details/125/BEECHCRAFT-P35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.485Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 256,
+    "fields": {
+        "manufacturer": 2,
+        "name": "S35 Bonanza (1964 - 1965)",
+        "url": "/wizard/details/126/BEECHCRAFT-S35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.485Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 257,
+    "fields": {
+        "manufacturer": 2,
+        "name": "V35TC Turbo Bonanza (1966 - 1967)",
+        "url": "/wizard/details/131/BEECHCRAFT-V35TC-Turbo-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.486Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 258,
+    "fields": {
+        "manufacturer": 2,
+        "name": "V35 Bonanza (1966 - 1967)",
+        "url": "/wizard/details/127/BEECHCRAFT-V35-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.486Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 259,
+    "fields": {
+        "manufacturer": 2,
+        "name": "V35B-TC Turbo Bonanza (1966 - 1967)",
+        "url": "/wizard/details/130/BEECHCRAFT-V35B-TC-Turbo-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.487Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 260,
+    "fields": {
+        "manufacturer": 2,
+        "name": "V35A Bonanza (1968 - 1969)",
+        "url": "/wizard/details/128/BEECHCRAFT-V35A-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.487Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 261,
+    "fields": {
+        "manufacturer": 2,
+        "name": "V35A-TC Turbo Bonanza (1968 - 1969)",
+        "url": "/wizard/details/129/BEECHCRAFT-V35A-TC-Turbo-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.487Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 262,
+    "fields": {
+        "manufacturer": 2,
+        "name": "V35B Bonanza (1975 - 1983)",
+        "url": "/wizard/details/873/BEECHCRAFT-V35B-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.488Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 263,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A36 Bonanza (1968 - 1983)",
+        "url": "/wizard/details/62/BEECHCRAFT-A36-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.488Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 264,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A36 BONANZA TURBOPROP (1970 - 2005)",
+        "url": "/wizard/details/922/BEECHCRAFT-A36-BONANZA-TURBOPROP-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.492Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 265,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A36TC Bonanza (1979 - 1981)",
+        "url": "/wizard/details/64/BEECHCRAFT-A36TC-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.492Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 266,
+    "fields": {
+        "manufacturer": 2,
+        "name": "B36TC Bonanza (1982 - 2002)",
+        "url": "/wizard/details/75/BEECHCRAFT-B36TC-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.493Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 267,
+    "fields": {
+        "manufacturer": 2,
+        "name": "A36 Bonanza (1984 - 2005)",
+        "url": "/wizard/details/63/BEECHCRAFT-A36-Bonanza-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.493Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 268,
+    "fields": {
+        "manufacturer": 2,
+        "name": "G36 BONANZA (2006 - 2018)",
+        "url": "/wizard/details/836/BEECHCRAFT-G36-BONANZA-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.493Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 269,
+    "fields": {
+        "manufacturer": 2,
+        "name": "77 Skipper (1979 - 1981)",
+        "url": "/wizard/details/50/BEECHCRAFT-77-Skipper-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.494Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 270,
+    "fields": {
+        "manufacturer": 3,
+        "name": "J-3 Cub (1938 - 1947)",
+        "url": "/wizard/details/453/PIPER-J-3-Cub-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.494Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 271,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-11 with 90 hp engine (1948 - 1949)",
+        "url": "/wizard/details/454/PIPER-PA-11-with-90-hp-engine-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.495Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 272,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-12 Super Cruiser (1946 - 1948)",
+        "url": "/wizard/details/455/PIPER-PA-12-Super-Cruiser-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.495Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 273,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-14 Cruiser (1948 - 1949)",
+        "url": "/wizard/details/456/PIPER-PA-14-Cruiser-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.495Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 274,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-16 Clipper (1949 - 1949)",
+        "url": "/wizard/details/457/PIPER-PA-16-Clipper-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.496Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 275,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-18-125 Super Cub (1951 - 1952)",
+        "url": "/wizard/details/458/PIPER-PA-18-125-Super-Cub-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.496Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 276,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-18-135 Super Cub (1952 - 1952)",
+        "url": "/wizard/details/459/PIPER-PA-18-135-Super-Cub-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.497Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 277,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-18-150 Super Cub (1955 - 1994)",
+        "url": "/wizard/details/460/PIPER-PA-18-150-Super-Cub-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.497Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 278,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-18-150 Super Cub on Floats (1955 - 1976)",
+        "url": "/wizard/details/461/PIPER-PA-18-150-Super-Cub-on-Floats-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.497Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 279,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-20-125 Pacer (1950 - 1950)",
+        "url": "/wizard/details/462/PIPER-PA-20-125-Pacer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.498Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 280,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-20-135 Pacer (1952 - 1952)",
+        "url": "/wizard/details/463/PIPER-PA-20-135-Pacer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.498Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 281,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-22-135 Tri-Pacer (1952 - 1954)",
+        "url": "/wizard/details/465/PIPER-PA-22-135-Tri-Pacer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.499Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 282,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-22-150 Tri-Pacer (1955 - 1960)",
+        "url": "/wizard/details/466/PIPER-PA-22-150-Tri-Pacer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.499Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 283,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-22-160 Tri-Pacer (1958 - 1958)",
+        "url": "/wizard/details/467/PIPER-PA-22-160-Tri-Pacer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.499Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 284,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-22-108 Colt (1961 - 1963)",
+        "url": "/wizard/details/464/PIPER-PA-22-108-Colt-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.500Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 285,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-24-250 Comanche (1958 - 1964)",
+        "url": "/wizard/details/480/PIPER-PA-24-250-Comanche-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.504Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 286,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-24-180 Comanche (1958 - 1964)",
+        "url": "/wizard/details/479/PIPER-PA-24-180-Comanche-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.504Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 287,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-24-400 Comanche (1964 - 1965)",
+        "url": "/wizard/details/484/PIPER-PA-24-400-Comanche-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.505Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 288,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-24-260 Comanche (1965 - 1965)",
+        "url": "/wizard/details/481/PIPER-PA-24-260-Comanche-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.505Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 289,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-24-260B Comanche (1966 - 1968)",
+        "url": "/wizard/details/482/PIPER-PA-24-260B-Comanche-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.506Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 290,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-24-260C Comanche (1969 - 1972)",
+        "url": "/wizard/details/483/PIPER-PA-24-260C-Comanche-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.506Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 291,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-25-150 Pawnee (1960 - 1962)",
+        "url": "/wizard/details/485/PIPER-PA-25-150-Pawnee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.507Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 292,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-25-235C Pawnee (1967 - 1974)",
+        "url": "/wizard/details/486/PIPER-PA-25-235C-Pawnee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.507Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 293,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-25-260C Pawnee (1968 - 1974)",
+        "url": "/wizard/details/488/PIPER-PA-25-260C-Pawnee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.508Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 294,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-25-260D Pawnee (1974 - 1977)",
+        "url": "/wizard/details/489/PIPER-PA-25-260D-Pawnee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.508Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 295,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-25-235D Pawnee (1974 - 1981)",
+        "url": "/wizard/details/487/PIPER-PA-25-235D-Pawnee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.508Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 296,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-160B Cherokee (1963 - 1964)",
+        "url": "/wizard/details/506/PIPER-PA-28-160B-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.509Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 297,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180B Cherokee (1963 - 1964)",
+        "url": "/wizard/details/490/PIPER-PA-28-180B-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.509Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 298,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-150B Cherokee (1963 - 1965)",
+        "url": "/wizard/details/502/PIPER-PA-28-150B-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.510Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 299,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140 Cherokee (1964 - 1964)",
+        "url": "/wizard/details/495/PIPER-PA-28-140-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.510Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 300,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235 (1964 - 1964)",
+        "url": "/wizard/details/978/PIPER-PA-28-235-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.510Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 301,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-160C Cherokee (1965 - 1967)",
+        "url": "/wizard/details/507/PIPER-PA-28-160C-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.511Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 302,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180C Cherokee (1965 - 1967)",
+        "url": "/wizard/details/491/PIPER-PA-28-180C-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.511Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 303,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140 Cherokee (1965 - 1968)",
+        "url": "/wizard/details/497/PIPER-PA-28-140-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.512Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 304,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-150C Cherokee (1966 - 1967)",
+        "url": "/wizard/details/503/PIPER-PA-28-150C-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.512Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 305,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235B Cherokee (1967 - 1967)",
+        "url": "/wizard/details/516/PIPER-PA-28-235B-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.512Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 306,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28R-180 Arrow (1967 - 1971)",
+        "url": "/wizard/details/522/PIPER-PA-28R-180-Arrow-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.516Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 307,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180D (1968 - 1969)",
+        "url": "/wizard/details/835/PIPER-PA-28-180D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.516Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 308,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235C (1968 - 1969)",
+        "url": "/wizard/details/517/PIPER-PA-28-235C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.517Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 309,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28R-200 Arrow II (1969 - 1972)",
+        "url": "/wizard/details/523/PIPER-PA-28R-200-Arrow-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.517Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 310,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140B (1969 - 1969)",
+        "url": "/wizard/details/498/PIPER-PA-28-140B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.518Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 311,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140C (1970 - 1970)",
+        "url": "/wizard/details/499/PIPER-PA-28-140C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.518Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 312,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235D (1970 - 1970)",
+        "url": "/wizard/details/518/PIPER-PA-28-235D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.518Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 313,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180E (1970 - 1970)",
+        "url": "/wizard/details/492/PIPER-PA-28-180E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:09:57.652Z",
+        "updated_at": "2024-10-07T03:16:44.519Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 414,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235E (1971 - 1971)",
+        "url": "/wizard/details/519/PIPER-PA-28-235E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.519Z",
+        "updated_at": "2024-10-07T03:16:44.519Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 415,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180F Cherokee (1971 - 1971)",
+        "url": "/wizard/details/493/PIPER-PA-28-180F-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.531Z",
+        "updated_at": "2024-10-07T03:16:44.531Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 416,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140D (1971 - 1971)",
+        "url": "/wizard/details/500/PIPER-PA-28-140D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.531Z",
+        "updated_at": "2024-10-07T03:16:44.531Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 417,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180G Cherokee (1972 - 1972)",
+        "url": "/wizard/details/494/PIPER-PA-28-180G-Cherokee-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.532Z",
+        "updated_at": "2024-10-07T03:16:44.532Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 418,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235F (1972 - 1972)",
+        "url": "/wizard/details/520/PIPER-PA-28-235F-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.532Z",
+        "updated_at": "2024-10-07T03:16:44.532Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 419,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140E (1972 - 1973)",
+        "url": "/wizard/details/501/PIPER-PA-28-140E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.533Z",
+        "updated_at": "2024-10-07T03:16:44.533Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 420,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28R-200 Arrow II (1973 - 1976)",
+        "url": "/wizard/details/524/PIPER-PA-28R-200-Arrow-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.533Z",
+        "updated_at": "2024-10-07T03:16:44.533Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 421,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-180 Challenger & Archer (1973 - 1975)",
+        "url": "/wizard/details/510/PIPER-PA-28-180-Challenger---Archer-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.534Z",
+        "updated_at": "2024-10-07T03:16:44.534Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 422,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235 Cherokee Charger (1973 - 1973)",
+        "url": "/wizard/details/514/PIPER-PA-28-235-Cherokee-Charger-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.534Z",
+        "updated_at": "2024-10-07T03:16:44.534Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 423,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-235 Cherokee Pathfinder (1974 - 1977)",
+        "url": "/wizard/details/515/PIPER-PA-28-235-Cherokee-Pathfinder-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.535Z",
+        "updated_at": "2024-10-07T03:16:44.535Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 424,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-151 Warrior (1974 - 1976)",
+        "url": "/wizard/details/505/PIPER-PA-28-151-Warrior-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.535Z",
+        "updated_at": "2024-10-07T03:16:44.535Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 425,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-140 Cherokee Cruiser (1974 - 1977)",
+        "url": "/wizard/details/496/PIPER-PA-28-140-Cherokee-Cruiser-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.535Z",
+        "updated_at": "2024-10-07T03:16:44.535Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 426,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-181 Archer II (1976 - 1994)",
+        "url": "/wizard/details/511/PIPER-PA-28-181-Archer-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.536Z",
+        "updated_at": "2024-10-07T03:16:44.536Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 427,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28R-201 Arrow III (1977 - 2016)",
+        "url": "/wizard/details/525/PIPER-PA-28R-201-Arrow-III-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.546Z",
+        "updated_at": "2024-10-07T03:16:44.546Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 428,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-151 Warrior (1977 - 1977)",
+        "url": "/wizard/details/504/PIPER-PA-28-151-Warrior-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.546Z",
+        "updated_at": "2024-10-07T03:16:44.546Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 429,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-161 Warrior II (1977 - 1995)",
+        "url": "/wizard/details/508/PIPER-PA-28-161-Warrior-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.547Z",
+        "updated_at": "2024-10-07T03:16:44.547Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 430,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-236 Dakota (1979 - 1994)",
+        "url": "/wizard/details/521/PIPER-PA-28-236-Dakota-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.547Z",
+        "updated_at": "2024-10-07T03:16:44.547Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 431,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-201T Turbo Dakota (1979 - 1979)",
+        "url": "/wizard/details/513/PIPER-PA-28-201T-Turbo-Dakota-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.547Z",
+        "updated_at": "2024-10-07T03:16:44.547Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 432,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28RT-201 Arrow IV (1979 - 1987)",
+        "url": "/wizard/details/526/PIPER-PA-28RT-201-Arrow-IV-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.548Z",
+        "updated_at": "2024-10-07T03:16:44.548Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 433,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-28-161 Warrior III (2014 - 2017)",
+        "url": "/wizard/details/840/PIPER-PA-28-161-Warrior-III-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.548Z",
+        "updated_at": "2024-10-07T03:16:44.548Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 434,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-300 (1966 - 1978)",
+        "url": "/wizard/details/543/PIPER-PA-32-300-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.549Z",
+        "updated_at": "2024-10-07T03:16:44.549Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 435,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-300C Cherokee Six (1969 - 1970)",
+        "url": "/wizard/details/545/PIPER-PA-32-300C-Cherokee-Six-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.549Z",
+        "updated_at": "2024-10-07T03:16:44.549Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 436,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-260D (1971 - 1971)",
+        "url": "/wizard/details/541/PIPER-PA-32-260D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.549Z",
+        "updated_at": "2024-10-07T03:16:44.549Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 437,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-300D Cherokee Six (1971 - 1971)",
+        "url": "/wizard/details/546/PIPER-PA-32-300D-Cherokee-Six-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.550Z",
+        "updated_at": "2024-10-07T03:16:44.550Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 438,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-260E (1972 - 1972)",
+        "url": "/wizard/details/542/PIPER-PA-32-260E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.550Z",
+        "updated_at": "2024-10-07T03:16:44.550Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 439,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-300E Cherokee Six (1972 - 1972)",
+        "url": "/wizard/details/547/PIPER-PA-32-300E-Cherokee-Six-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.551Z",
+        "updated_at": "2024-10-07T03:16:44.551Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 440,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-260 (1974 - 1978)",
+        "url": "/wizard/details/540/PIPER-PA-32-260-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.551Z",
+        "updated_at": "2024-10-07T03:16:44.551Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 441,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32R-300 (1976 - 1978)",
+        "url": "/wizard/details/550/PIPER-PA-32R-300-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.552Z",
+        "updated_at": "2024-10-07T03:16:44.552Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 442,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32RT-300T Turbo Lance II (1978 - 1979)",
+        "url": "/wizard/details/554/PIPER-PA-32RT-300T-Turbo-Lance-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.552Z",
+        "updated_at": "2024-10-07T03:16:44.552Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 443,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32RT-300 Lance II (1978 - 1979)",
+        "url": "/wizard/details/553/PIPER-PA-32RT-300-Lance-II-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.552Z",
+        "updated_at": "2024-10-07T03:16:44.552Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 444,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-300 (1979 - 1979)",
+        "url": "/wizard/details/544/PIPER-PA-32-300-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.553Z",
+        "updated_at": "2024-10-07T03:16:44.553Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 445,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32R-301 Saratoga SP (1980 - 2007)",
+        "url": "/wizard/details/551/PIPER-PA-32R-301-Saratoga-SP-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.553Z",
+        "updated_at": "2024-10-07T03:16:44.553Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 446,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32R-301T Turbo Saratoga SP (1980 - 2008)",
+        "url": "/wizard/details/552/PIPER-PA-32R-301T-Turbo-Saratoga-SP-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.554Z",
+        "updated_at": "2024-10-07T03:16:44.554Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 447,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-301T Turbo Saratoga (1980 - 1984)",
+        "url": "/wizard/details/549/PIPER-PA-32-301T-Turbo-Saratoga-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.554Z",
+        "updated_at": "2024-10-07T03:16:44.554Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 448,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-32-301 Saratoga (1980 - 1990)",
+        "url": "/wizard/details/548/PIPER-PA-32-301-Saratoga-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.554Z",
+        "updated_at": "2024-10-07T03:16:44.554Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 449,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-36-285 Pawnee Brave (1973 - 1977)",
+        "url": "/wizard/details/560/PIPER-PA-36-285-Pawnee-Brave-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.555Z",
+        "updated_at": "2024-10-07T03:16:44.555Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 450,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-36-300 Pawnee Brave (1976 - 1981)",
+        "url": "/wizard/details/593/PIPER-PA-36-300-Pawnee-Brave-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.555Z",
+        "updated_at": "2024-10-07T03:16:44.555Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 451,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-36-375 Pawnee Brave (1978 - 1981)",
+        "url": "/wizard/details/594/PIPER-PA-36-375-Pawnee-Brave-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.556Z",
+        "updated_at": "2024-10-07T03:16:44.556Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 452,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-38-112 Tomahawk (1978 - 1979)",
+        "url": "/wizard/details/562/PIPER-PA-38-112-Tomahawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.556Z",
+        "updated_at": "2024-10-07T03:16:44.556Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 453,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-38-112 Tomahawk (1980 - 1982)",
+        "url": "/wizard/details/561/PIPER-PA-38-112-Tomahawk-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.556Z",
+        "updated_at": "2024-10-07T03:16:44.556Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 454,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-46-310P Malibu (1984 - 1988)",
+        "url": "/wizard/details/566/PIPER-PA-46-310P-Malibu-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.557Z",
+        "updated_at": "2024-10-07T03:16:44.557Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 455,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA 46-350P (1987 - 2016)",
+        "url": "/wizard/details/946/PIPER-PA-46-350P-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.557Z",
+        "updated_at": "2024-10-07T03:16:44.557Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 456,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-46-350P Malibu Mirage (1989 - 2015)",
+        "url": "/wizard/details/567/PIPER-PA-46-350P-Malibu-Mirage-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.558Z",
+        "updated_at": "2024-10-07T03:16:44.558Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 457,
+    "fields": {
+        "manufacturer": 3,
+        "name": "PA-46R-350T Malibu Matrix (2008 - 2017)",
+        "url": "/wizard/details/849/PIPER-PA-46R-350T-Malibu-Matrix-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.558Z",
+        "updated_at": "2024-10-07T03:16:44.558Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 458,
+    "fields": {
+        "manufacturer": 3,
+        "name": "M350 (2015 - 2018)",
+        "url": "/wizard/details/839/PIPER-M350-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.558Z",
+        "updated_at": "2024-10-07T03:16:44.558Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 459,
+    "fields": {
+        "manufacturer": 4,
+        "name": "A 2-A Cadet (1968 - 1968)",
+        "url": "/wizard/details/433/MOONEY-A-2-A-Cadet-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.563Z",
+        "updated_at": "2024-10-07T03:16:44.563Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 460,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M10 Cadet (1969 - 1970)",
+        "url": "/wizard/details/434/MOONEY-M10-Cadet-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.563Z",
+        "updated_at": "2024-10-07T03:16:44.563Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 461,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M18 Mite (1948 - 1953)",
+        "url": "/wizard/details/586/MOONEY-M18-Mite-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.564Z",
+        "updated_at": "2024-10-07T03:16:44.564Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 462,
+    "fields": {
+        "manufacturer": 4,
+        "name": "Mark 20 (1955 - 1955)",
+        "url": "/wizard/details/435/MOONEY-Mark-20-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.564Z",
+        "updated_at": "2024-10-07T03:16:44.564Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 463,
+    "fields": {
+        "manufacturer": 4,
+        "name": "Mark 20A (1958 - 1960)",
+        "url": "/wizard/details/436/MOONEY-Mark-20A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.565Z",
+        "updated_at": "2024-10-07T03:16:44.565Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 464,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20B Mark 21 (1961 - 1961)",
+        "url": "/wizard/details/437/MOONEY-M20B-Mark-21-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.565Z",
+        "updated_at": "2024-10-07T03:16:44.565Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 465,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20C Mark 21 (1962 - 1968)",
+        "url": "/wizard/details/438/MOONEY-M20C-Mark-21-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.565Z",
+        "updated_at": "2024-10-07T03:16:44.565Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 466,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20D Master (1963 - 1965)",
+        "url": "/wizard/details/442/MOONEY-M20D-Master-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.566Z",
+        "updated_at": "2024-10-07T03:16:44.566Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 467,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20E Super 21 Chaparral (1964 - 1967)",
+        "url": "/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.566Z",
+        "updated_at": "2024-10-07T03:16:44.566Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 468,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20F Executive 21 (1967 - 1971)",
+        "url": "/wizard/details/447/MOONEY-M20F-Executive-21-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.567Z",
+        "updated_at": "2024-10-07T03:16:44.567Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 469,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20G Statesman (1968 - 1970)",
+        "url": "/wizard/details/448/MOONEY-M20G-Statesman-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.567Z",
+        "updated_at": "2024-10-07T03:16:44.567Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 470,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20E Chaparral (1969 - 1971)",
+        "url": "/wizard/details/444/MOONEY-M20E-Chaparral-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.567Z",
+        "updated_at": "2024-10-07T03:16:44.567Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 471,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20C Ranger (1969 - 1973)",
+        "url": "/wizard/details/441/MOONEY-M20C-Ranger-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.568Z",
+        "updated_at": "2024-10-07T03:16:44.568Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 472,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20C Ranger (1974 - 1976)",
+        "url": "/wizard/details/439/MOONEY-M20C-Ranger-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.568Z",
+        "updated_at": "2024-10-07T03:16:44.568Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 473,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20F Executive 21 (1974 - 1977)",
+        "url": "/wizard/details/446/MOONEY-M20F-Executive-21-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.569Z",
+        "updated_at": "2024-10-07T03:16:44.569Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 474,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20E Chaparral (1974 - 1975)",
+        "url": "/wizard/details/443/MOONEY-M20E-Chaparral-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.569Z",
+        "updated_at": "2024-10-07T03:16:44.569Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 475,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20J 201 (1977 - 1987)",
+        "url": "/wizard/details/449/MOONEY-M20J-201-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.569Z",
+        "updated_at": "2024-10-07T03:16:44.569Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 476,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20C Ranger (1977 - 1978)",
+        "url": "/wizard/details/440/MOONEY-M20C-Ranger-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.570Z",
+        "updated_at": "2024-10-07T03:16:44.570Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 477,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20K 231 (1979 - 1985)",
+        "url": "/wizard/details/450/MOONEY-M20K-231-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.570Z",
+        "updated_at": "2024-10-07T03:16:44.570Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 478,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20K 252TSE (1986 - 1990)",
+        "url": "/wizard/details/451/MOONEY-M20K-252TSE-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.571Z",
+        "updated_at": "2024-10-07T03:16:44.571Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 479,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20L PFM (1988 - 1989)",
+        "url": "/wizard/details/587/MOONEY-M20L-PFM-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.571Z",
+        "updated_at": "2024-10-07T03:16:44.571Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 480,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20M TLS (1989 - 1998)",
+        "url": "/wizard/details/588/MOONEY-M20M-TLS-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.571Z",
+        "updated_at": "2024-10-07T03:16:44.571Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 481,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20R Ovation (1994 - 2016)",
+        "url": "/wizard/details/868/MOONEY-M20R-Ovation-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.572Z",
+        "updated_at": "2024-10-07T03:16:44.572Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 482,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20S Eagle (1999 - 2002)",
+        "url": "/wizard/details/867/MOONEY-M20S-Eagle-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.572Z",
+        "updated_at": "2024-10-07T03:16:44.572Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 483,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M20V Acclaim Ultra (2017 - 2018)",
+        "url": "/wizard/details/865/MOONEY-M20V-Acclaim-Ultra-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.573Z",
+        "updated_at": "2024-10-07T03:16:44.573Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 484,
+    "fields": {
+        "manufacturer": 4,
+        "name": "M22 (1967 - 1970)",
+        "url": "/wizard/details/452/MOONEY-M22-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.573Z",
+        "updated_at": "2024-10-07T03:16:44.573Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 485,
+    "fields": {
+        "manufacturer": 5,
+        "name": "G1 (159) (1958 - 1969)",
+        "url": "/wizard/details/1142/GULFSTREAM-AMERICAN-CORP-G1--159--specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.574Z",
+        "updated_at": "2024-10-07T03:16:44.574Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 486,
+    "fields": {
+        "manufacturer": 6,
+        "name": "DHC-8-202 (1995 - present)",
+        "url": "/wizard/details/1221/BOMBARDIER-INC-DHC-8-202-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.574Z",
+        "updated_at": "2024-10-07T03:16:44.574Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 487,
+    "fields": {
+        "manufacturer": 7,
+        "name": "SR20 (1999 - present)",
+        "url": "/wizard/details/576/CIRRUS-SR20-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.574Z",
+        "updated_at": "2024-10-07T03:16:44.574Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 488,
+    "fields": {
+        "manufacturer": 7,
+        "name": "SR22 (2001 - present)",
+        "url": "/wizard/details/577/CIRRUS-SR22-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.575Z",
+        "updated_at": "2024-10-07T03:16:44.575Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 489,
+    "fields": {
+        "manufacturer": 7,
+        "name": "SR22T (2010 - present)",
+        "url": "/wizard/details/864/CIRRUS-SR22T-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.575Z",
+        "updated_at": "2024-10-07T03:16:44.575Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 490,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 100 (1983 - 1990)",
+        "url": "/wizard/details/672/DASSAULT-FALCON-100-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.576Z",
+        "updated_at": "2024-10-07T03:16:44.576Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 491,
+    "fields": {
+        "manufacturer": 8,
+        "name": "Falcon 20D-5 (1963 - 1980)",
+        "url": "/wizard/details/973/DASSAULT-Falcon-20D-5-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.576Z",
+        "updated_at": "2024-10-07T03:16:44.576Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 492,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 20C-5 (AR) (1965 - 1968)",
+        "url": "/wizard/details/897/DASSAULT-FALCON-20C-5--AR--specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.577Z",
+        "updated_at": "2024-10-07T03:16:44.577Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 493,
+    "fields": {
+        "manufacturer": 8,
+        "name": "Falcon 20D (1967 - 1981)",
+        "url": "/wizard/details/974/DASSAULT-Falcon-20D-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.577Z",
+        "updated_at": "2024-10-07T03:16:44.577Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 494,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 20F (1970 - 1991)",
+        "url": "/wizard/details/671/DASSAULT-FALCON-20F-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.577Z",
+        "updated_at": "2024-10-07T03:16:44.577Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 495,
+    "fields": {
+        "manufacturer": 8,
+        "name": "Falcon 20E (1971 - 1983)",
+        "url": "/wizard/details/975/DASSAULT-Falcon-20E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.578Z",
+        "updated_at": "2024-10-07T03:16:44.578Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 496,
+    "fields": {
+        "manufacturer": 8,
+        "name": "Falcon 20F-5 (1983 - 1988)",
+        "url": "/wizard/details/976/DASSAULT-Falcon-20F-5-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.578Z",
+        "updated_at": "2024-10-07T03:16:44.578Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 497,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 2000 (1995 - 2007)",
+        "url": "/wizard/details/723/DASSAULT-FALCON-2000-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.579Z",
+        "updated_at": "2024-10-07T03:16:44.579Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 498,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 2000EX EASy (2004 - 2009)",
+        "url": "/wizard/details/896/DASSAULT-FALCON-2000EX-EASy-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.579Z",
+        "updated_at": "2024-10-07T03:16:44.579Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 499,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 2000LXS (2013 - present)",
+        "url": "/wizard/details/676/DASSAULT-FALCON-2000LXS-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.579Z",
+        "updated_at": "2024-10-07T03:16:44.579Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 500,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 2000S (2013 - present)",
+        "url": "/wizard/details/677/DASSAULT-FALCON-2000S-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.580Z",
+        "updated_at": "2024-10-07T03:16:44.580Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 501,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 50 (1980 - 1996)",
+        "url": "/wizard/details/670/DASSAULT-FALCON-50-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.580Z",
+        "updated_at": "2024-10-07T03:16:44.580Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 502,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 50EX (1997 - 2007)",
+        "url": "/wizard/details/722/DASSAULT-FALCON-50EX-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.581Z",
+        "updated_at": "2024-10-07T03:16:44.581Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 503,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 7X (2007 - present)",
+        "url": "/wizard/details/673/DASSAULT-FALCON-7X-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.581Z",
+        "updated_at": "2024-10-07T03:16:44.581Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 504,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 8X (2015 - present)",
+        "url": "/wizard/details/674/DASSAULT-FALCON-8X-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.582Z",
+        "updated_at": "2024-10-07T03:16:44.582Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 505,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 900 (1986 - 1991)",
+        "url": "/wizard/details/669/DASSAULT-FALCON-900-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.582Z",
+        "updated_at": "2024-10-07T03:16:44.582Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 506,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 900B (1986 - 2000)",
+        "url": "/wizard/details/668/DASSAULT-FALCON-900B-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.582Z",
+        "updated_at": "2024-10-07T03:16:44.582Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 507,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 900EX (1995 - 2003)",
+        "url": "/wizard/details/667/DASSAULT-FALCON-900EX-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.583Z",
+        "updated_at": "2024-10-07T03:16:44.583Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 508,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 900C (1998 - 2005)",
+        "url": "/wizard/details/727/DASSAULT-FALCON-900C-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.583Z",
+        "updated_at": "2024-10-07T03:16:44.583Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 509,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 900DX (2005 - 2010)",
+        "url": "/wizard/details/898/DASSAULT-FALCON-900DX-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.584Z",
+        "updated_at": "2024-10-07T03:16:44.584Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 510,
+    "fields": {
+        "manufacturer": 8,
+        "name": "FALCON 900LX (2010 - present)",
+        "url": "/wizard/details/675/DASSAULT-FALCON-900LX-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.584Z",
+        "updated_at": "2024-10-07T03:16:44.584Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 511,
+    "fields": {
+        "manufacturer": 8,
+        "name": "Alpha Jet E (1977 - 1991)",
+        "url": "/wizard/details/1166/Dassault-Aviation--DORNIER-GMBH-Alpha-Jet-E-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.584Z",
+        "updated_at": "2024-10-07T03:16:44.584Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 512,
+    "fields": {
+        "manufacturer": 9,
+        "name": "TBM 930 (2016 - present)",
+        "url": "/wizard/details/638/SOCATA-TBM-930-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.585Z",
+        "updated_at": "2024-10-07T03:16:44.585Z"
+    }
+},
+{
+    "model": "aircraft.modelscrape",
+    "pk": 513,
+    "fields": {
+        "manufacturer": 9,
+        "name": "TBM 700A (1990 - 2005)",
+        "url": "/wizard/details/952/SOCATA-TBM-700A-specifications-performance-operating-cost-valuation",
+        "created_at": "2024-10-07T03:16:44.588Z",
+        "updated_at": "2024-10-07T03:16:44.588Z"
+    }
+}
+]

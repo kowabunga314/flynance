@@ -1,0 +1,92 @@
+[
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 1,
+    "fields": {
+        "name": "CESSNA",
+        "url": "/wizard/manufacturers/CESSNA/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 2,
+    "fields": {
+        "name": "BEECHCRAFT",
+        "url": "/wizard/manufacturers/BEECHCRAFT/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 3,
+    "fields": {
+        "name": "PIPER",
+        "url": "/wizard/manufacturers/PIPER/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 4,
+    "fields": {
+        "name": "MOONEY",
+        "url": "/wizard/manufacturers/MOONEY/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 5,
+    "fields": {
+        "name": "GULFSTREAM",
+        "url": "/wizard/manufacturers/GULFSTREAM/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 6,
+    "fields": {
+        "name": "BOMBARDIER",
+        "url": "/wizard/manufacturers/BOMBARDIER/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 7,
+    "fields": {
+        "name": "CIRRUS",
+        "url": "/wizard/manufacturers/CIRRUS/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 8,
+    "fields": {
+        "name": "DASSAULT",
+        "url": "/wizard/manufacturers/Dassault/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+},
+{
+    "model": "aircraft.manufacturerscrape",
+    "pk": 9,
+    "fields": {
+        "name": "SOCATA",
+        "url": "/wizard/manufacturers/SOCATA/",
+        "created_at": "2024-10-07T02:07:17.006Z",
+        "updated_at": "2024-10-07T02:07:17.006Z"
+    }
+}
+]

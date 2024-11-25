@@ -37,11 +37,13 @@ services:
   celery:
     <<: *api_base
     restart: always
-    command: celery -A flynance worker --loglevel=info
-  celery_beat:
-    <<: *api_base
-    restart: always
-    command: celery -A flynance beat --loglevel=info
+    command: celery -A aircraft_api worker --loglevel=info
+    ports: []
+  # celery_beat:
+  #   <<: *api_base
+  #   restart: always
+  #   command: celery -A aircraft_api beat --loglevel=info
+  #   ports: []
   node:
     build:
       context: ./vue-app

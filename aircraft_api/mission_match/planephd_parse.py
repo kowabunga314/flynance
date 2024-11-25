@@ -128,6 +128,7 @@ class PlanePHDParser:
         if key not in xpath_tree[page_section]['keys']['map']:
           continue
         clean_key = xpath_tree[page_section]['keys']['map'][key]
+        print(f"Attempting to match {xpath_tree[page_section]['values']['map'][clean_key]['pattern']} with {pt_values[i]}")
         match = re.search(xpath_tree[page_section]['values']['map'][clean_key]['pattern'], pt_values[i])
         clean_value = xpath_tree[page_section]['values']['map'][clean_key]['type'](match.group(1).replace(',', ''))
         plane_data[clean_key] = clean_value
@@ -312,7 +313,7 @@ xpath_tree = {
       }
     },
     'values': {
-      'path': '//*[@id="perforance_top"]/div[1]/div[1]/div/dl[2]/dd/p/text()',
+      'path': '//*[@id="perforance_top"]/div[1]/div[3]/div/dl/dd/p/text()',
       'map': {
         'engine_manufacturer': {
           'pattern': r'^([\w\W]+)$',

@@ -45,4 +45,3 @@ virtualenv==20.25.0
 Werkzeug==3.0.3
 python-decouple==3.8
 uritemplate==4.1.1
-

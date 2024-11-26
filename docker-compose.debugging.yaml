@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  api:
+    ports:
+      - "5678:5678"  # Debugger port
+    volumes:
+      - .:/app
+    command: bash -c "pip install debugpy==1.8.9 && python -Xfrozen_modules=off -m debugpy --listen 0.0.0.0:5678 --wait-for-client python manage.py runserver 0.0.0.0:8000"
+    environment:
+      PYTHONUNBUFFERED: 1
+      PYDEVD_DISABLE_FILE_VALIDATION: 1

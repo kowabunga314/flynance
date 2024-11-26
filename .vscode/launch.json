@@ -1,17 +1,27 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "justMyCode": false,
-            "name": "Python Debugger",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${workspaceFolder}/mission_match/test.py",
-            "python": "${workspaceFolder}/.venv/bin/python",
-            "args": "${command:pickArgs}",
+      {
+        "name": "Docker: Django Debug",
+        "type": "debugpy",  // Use "python" or "debugpy" as supported
+        "request": "attach",
+        "preLaunchTask": "docker-compose: debug",
+        "connect": {
+          "host": "localhost",
+          "port": 5678
+        },
+        "pathMappings": [
+          {
+            "localRoot": "${workspaceFolder}/aircraft_api",
+            "remoteRoot": "/app"
           }
+        ],
+        "module": "manage",  // Specify the Django manage.py entry point
+        "args": [
+          "runserver",
+          "0.0.0.0:8000"
+        ]
+      }
     ]
-}
+  }
+  

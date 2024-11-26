@@ -3,7 +3,7 @@ from django.db import transaction
 import requests
 from typing import List
 
-from aircraft.models import ManufacturerScrape, ModelScrape, Aircraft
+from aircraft.models import ManufacturerCrawl, ModelCrawl, AircraftListing
 from aircraft.serializers import AircraftModelSerializer
 from mission_match.planephd_parse import PlanePHDParser
 
@@ -14,14 +14,14 @@ def get_aircraft_performance(model_name):
 
     if model_name is not None and isinstance(model_name, str):
         try:
-            model = ModelScrape.objects.get(name=model_name)
-        except ModelScrape.DoesNotExist:
+            model = ModelCrawl.objects.get(name=model_name)
+        except ModelCrawl.DoesNotExist:
             raise ValueError(f'Aircraft model {model_name} not found.')
     else:
         raise ValueError('Argument "model_name" must be a string.')
 
     model_data = parser.get_aircraft_performance(model.__dict__)
-    aircraft = AircraftModelSerializer(data={
+    aircraft = AircraftListing(**{
         **model_data,
         'listing_url': model_data.get('url'),
         'model_name': model_data.get('model'),

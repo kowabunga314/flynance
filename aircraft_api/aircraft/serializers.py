@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from aircraft.models import Aircraft, AircraftModel, Engine, Manufacturer
+from aircraft.models import AircraftListing, AircraftModel, Engine, Manufacturer
 
 
 class ManufacturerSerializer(serializers.HyperlinkedModelSerializer):
@@ -21,7 +21,7 @@ class AircraftModelSerializer(serializers.HyperlinkedModelSerializer):
         fields = '__all__'
 
 
-class AircraftSerializer(serializers.HyperlinkedModelSerializer):
+class AircraftListingSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Aircraft
+        model = AircraftListing
         fields = '__all__'

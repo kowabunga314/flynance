@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from django.db import models
 
 
-class ManufacturerScrape(models.Model):
+class ManufacturerCrawl(models.Model):
     name = models.CharField(max_length=200)
     url = models.URLField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -28,8 +28,8 @@ class Manufacturer(models.Model):
     manufacturer_type = models.CharField(max_length=32, choices=MANUFACTURER_TYPES)
 
 
-class ModelScrape(models.Model):
-    manufacturer = models.ForeignKey(to=ManufacturerScrape, on_delete=models.PROTECT)
+class ModelCrawl(models.Model):
+    manufacturer = models.ForeignKey(to=ManufacturerCrawl, on_delete=models.PROTECT)
     name = models.CharField(max_length=200, unique=True)
     url = models.URLField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -108,6 +108,11 @@ class AbstractAircraft(models.Model):
         abstract = True
 
 
+class AircraftCrawl(AbstractAircraft):
+    manufacturer = models.CharField(max_length=256, null=True, blank=True)
+    engine = models.CharField(max_length=256, null=True, blank=True)
+
+
 # Create your models here.
 class AircraftModel(AbstractAircraft):
     """
@@ -124,14 +129,14 @@ class AircraftModel(AbstractAircraft):
     estimated_value = models.DecimalField(max_digits=9, decimal_places=2, null=True)
     
 
-    manufacturer = models.ForeignKey('ManufacturerScrape', on_delete=models.PROTECT)
+    manufacturer = models.ForeignKey('ManufacturerCrawl', on_delete=models.PROTECT)
     engine = models.ForeignKey('Engine', on_delete=models.PROTECT, null=True)
 
     class Meta:
         unique_together = ('model_name', 'model_variant')
 
 
-class Aircraft(AbstractAircraft):
+class AircraftListing(AbstractAircraft):
     """
     Aircraft This class represents a specific aircraft.
 

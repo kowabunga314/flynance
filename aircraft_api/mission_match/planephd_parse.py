@@ -4,6 +4,8 @@ from pprint import pprint
 import re
 import requests
 
+from get_aircraft_data import get_aircraft_data
+
 
 class PlanePHDParser:
   host = 'https://planephd.com'
@@ -50,7 +52,7 @@ class PlanePHDParser:
     Finds all models associated with a specific manufacturer on PlanePHD's wizard.
 
     Args:
-        manufacturer (ManufacturerScrape): A record of a manufacturer's page on PlanePHD
+        manufacturer (ManufacturerCrawl): A record of a manufacturer's page on PlanePHD
 
     Returns:
         dict: an aircraft model's name, URL, and manufacturer reference
@@ -87,6 +89,15 @@ class PlanePHDParser:
     model = tree.xpath(model_xpath)[0]
     plane_data['model'] = model
 
+    return plane_data
+  
+  def get_generic_performance(self, aircraft: dict):
+    url = aircraft.get('url')
+    if url is None:
+      url = f'{self.host}/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
+    elif self.host not in url:
+      url = ''.join([self.host, url])
+    plane_data = get_aircraft_data(url)
     return plane_data
   
   def get_aircraft_performance(self, aircraft: dict):

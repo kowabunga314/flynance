@@ -1,8 +1,10 @@
 from django.contrib.auth.models import User
 from rest_framework import permissions, viewsets
 
-from aircraft.models import Manufacturer, AircraftModel, Engine, Aircraft
-from aircraft.serializers import ManufacturerSerializer, AircraftModelSerializer, EngineSerializer, AircraftSerializer
+from aircraft.models import Manufacturer, AircraftModel, Engine, AircraftListing
+from aircraft.serializers import (
+    ManufacturerSerializer, AircraftModelSerializer, EngineSerializer, AircraftListingSerializer
+)
 
 
 class ManufacturerViewSet(viewsets.ModelViewSet):
@@ -32,10 +34,13 @@ class EngineViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
-class AircraftViewSet(viewsets.ModelViewSet):
+class AircraftListingViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = Aircraft.objects.all()
-    serializer_class = AircraftSerializer
+    queryset = AircraftListing.objects.all()
+    serializer_class = AircraftListingSerializer
     permission_classes = [permissions.IsAuthenticated]
+
+    def get(self):
+        return self.queryset

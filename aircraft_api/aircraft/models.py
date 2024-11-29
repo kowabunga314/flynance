@@ -110,7 +110,7 @@ class AbstractAircraft(models.Model):
 
 
 class AircraftCrawl(models.Model):
-    model_name = models.CharField(max_length=128, unique=True, null=True, blank=True)
+    model_name = models.CharField(max_length=128, unique=True)
     engine_count = models.CharField(max_length=64, null=True, blank=True)
     total_cost_of_ownership = models.CharField(max_length=64, null=True, blank=True)
     total_fixed_cost = models.CharField(max_length=64, null=True, blank=True)
@@ -137,7 +137,7 @@ class AircraftCrawl(models.Model):
     manufacturer = models.CharField(max_length=256, null=True, blank=True)
     engine = models.CharField(max_length=256, null=True, blank=True)
     owner = models.CharField(max_length=256, null=True, blank=True)
-    unparsed_data = models.JSONField(default={})
+    unparsed_data = models.JSONField(default=dict)
 
 
 # Create your models here.

@@ -37,7 +37,12 @@ def get_aircraft_performance(model_name):
     with transaction.atomic():
         model.last_parsed_at = datetime.now()
         if aircraft.is_valid():
-            aircraft.save()
+            try:
+                AircraftCrawl.objects.filter(
+                    model_name=aircraft.validated_data.get('model_name')
+                ).update(**aircraft.validated_data)
+            except AircraftCrawl.DoesNotExist:
+                aircraft.save()
             model.save()
         else:
             raise ValidationError(aircraft.errors)

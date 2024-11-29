@@ -32,9 +32,18 @@ class AircraftListingSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class AircraftCrawlSerializer(serializers.ModelSerializer):
+
+    def validate_model_name(self, value):
+        if len(value) > 128:
+            raise serializers.ValidationError('"model_name" field exceeded max length of 128 characters')
+        return value
+
     class Meta:
         model = AircraftCrawl
         fields = '__all__'
+        extra_kwargs = {
+            'model_name': {'validators': []}  # Disable the default validator
+        }
 
 
 class AircraftCrawlNormalizer(BaseModel):

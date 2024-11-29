@@ -46,3 +46,4 @@ Werkzeug==3.0.3
 python-decouple==3.8
 uritemplate==4.1.1
 beautifulsoup4==4.12.3
+redis==5.2.0

@@ -34,6 +34,7 @@ class ModelCrawl(models.Model):
     url = models.URLField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    last_parsed_at = models.DateTimeField(null=True, blank=True)
 
 class AbstractAircraft(models.Model):
     FIXED_GEAR = ('fixed', 'Fixed')

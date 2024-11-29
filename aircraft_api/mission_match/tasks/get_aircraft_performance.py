@@ -1,4 +1,5 @@
 from celery import shared_task
+from datetime import datetime
 from django.db import transaction
 from pprint import pprint
 import requests
@@ -29,13 +30,17 @@ def get_aircraft_performance(model_name):
 
     data_mapper = AircraftDataMapper(data=model_data)
     mapped_data = data_mapper.get_normalized_data()
-    mapped_data['model_name'] = model_name
+    mapped_data['model_name'] = model.name
+    mapped_data['manufacturer'] = model.manufacturer.name
     aircraft = AircraftCrawlSerializer(data=mapped_data)
 
-    if aircraft.is_valid():
-        aircraft.save()
-    else:
-        raise ValidationError(aircraft.errors)
+    with transaction.atomic():
+        model.last_parsed_at = datetime.now()
+        if aircraft.is_valid():
+            aircraft.save()
+            model.save()
+        else:
+            raise ValidationError(aircraft.errors)
 
     # TODO: Produce event to translate crawler model to actual aircraft model
 

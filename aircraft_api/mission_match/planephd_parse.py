@@ -4,7 +4,7 @@ from pprint import pprint
 import re
 import requests
 
-from get_aircraft_data import get_aircraft_data
+from mission_match.parse_aircraft_data import get_aircraft_data
 
 
 class PlanePHDParser:

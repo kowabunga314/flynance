@@ -108,9 +108,35 @@ class AbstractAircraft(models.Model):
         abstract = True
 
 
-class AircraftCrawl(AbstractAircraft):
+class AircraftCrawl(models.Model):
+    model_name = models.CharField(max_length=128, unique=True, null=True, blank=True)
+    engine_count = models.CharField(max_length=64, null=True, blank=True)
+    total_cost_of_ownership = models.CharField(max_length=64, null=True, blank=True)
+    total_fixed_cost = models.CharField(max_length=64, null=True, blank=True)
+    total_variable_cost = models.CharField(max_length=64, null=True, blank=True)
+    annual_inspection_cost = models.CharField(max_length=64, null=True, blank=True)
+    fuel_burn = models.CharField(max_length=64, null=True, blank=True)
+    fuel_burn_cruise = models.CharField(max_length=64, null=True, blank=True)
+    fuel_capacity = models.CharField(max_length=64, null=True, blank=True)
+    fuel_unit = models.CharField(max_length=64, null=True, blank=True)
+    cruise_speed = models.CharField(max_length=64, null=True, blank=True)
+    stall_speed = models.CharField(max_length=64, null=True, blank=True)
+    ceiling = models.CharField(max_length=64, null=True, blank=True)
+    ceiling_engine_out = models.CharField(max_length=64, null=True, blank=True)
+    takeoff_distance = models.CharField(max_length=64, null=True, blank=True)
+    landing_distance = models.CharField(max_length=64, null=True, blank=True)
+    takeoff_distance_50 = models.CharField(max_length=64, null=True, blank=True)
+    landing_distance_50 = models.CharField(max_length=64, null=True, blank=True)
+    gross_weight = models.CharField(max_length=64, null=True, blank=True)
+    empty_weight = models.CharField(max_length=64, null=True, blank=True)
+    max_payload = models.CharField(max_length=64, null=True, blank=True)
+    range = models.CharField(max_length=64, null=True, blank=True)
+    rate_of_climb = models.CharField(max_length=64, null=True, blank=True)
+    rate_of_climb_engine_out = models.CharField(max_length=64, null=True, blank=True)
     manufacturer = models.CharField(max_length=256, null=True, blank=True)
     engine = models.CharField(max_length=256, null=True, blank=True)
+    owner = models.CharField(max_length=256, null=True, blank=True)
+    unparsed_data = models.JSONField(default={})
 
 
 # Create your models here.

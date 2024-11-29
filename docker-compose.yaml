@@ -45,6 +45,8 @@ services:
     <<: *api_base
     restart: always
     command: celery -A aircraft_api beat --loglevel=info
+    environment:
+      - DJANGO_SETTINGS_MODULE=aircraft_api.settings
     ports: []
   node:
     build:

@@ -11,7 +11,7 @@ from aircraft.serializers import AircraftCrawlSerializer, AircraftDataMapper
 from mission_match.planephd_parse import PlanePHDParser
 
 @shared_task
-@transaction.atomic
+# @transaction.atomic
 def get_aircraft_performance(model_name):
     parser = PlanePHDParser()
 

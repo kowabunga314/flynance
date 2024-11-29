@@ -1,23 +1,27 @@
 from __future__ import absolute_import, unicode_literals
 import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aircraft_api.settings')
-from django.conf import settings
+from django.apps import apps
+# from django.conf import settings
+import logging
 
-from celery import Celery
+from celery import Celery, shared_task
 
-# from mission_match.tasks.periodic_update import periodic_update
 
 # Set the default Django settings module for the 'celery' program.
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aircraft_api.settings')
 
 app = Celery('aircraft_api')
 
+logger = logging.getLogger('__name__')
 
 # Load task modules from all registered Django app configs.
 app.config_from_object('django.conf:settings', namespace='CELERY')
-app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
+app.autodiscover_tasks()
+print(f"Discovered tasks: {app.tasks.keys()}")
 
-# @app.on_after_configure.connect
-# def setup_periodic_tasks(sender, **kwargs):
-#     # Calls test('hello') every 10 seconds.
-#     sender.add_periodic_task(30.0, periodic_update.s(), name='crawl every 30')
+@shared_task
+def debug_task():
+    # Task logic
+   logger.debug('Executing debug task...')
+   print('Executing debug task...')

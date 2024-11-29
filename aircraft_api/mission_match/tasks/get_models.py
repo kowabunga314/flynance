@@ -3,19 +3,19 @@ from django.db import transaction
 import requests
 from typing import List
 
-from aircraft.models import ManufacturerScrape, ModelScrape
+from aircraft.models import ManufacturerCrawl, ModelCrawl
 from mission_match.planephd_parse import PlanePHDParser
 
 @shared_task
 @transaction.atomic
-def get_model_data(mfgrs: List[str]=[]):
+def get_models(mfgrs: List[str]=[]):
     parser = PlanePHDParser()
     model_data = []
 
     if len(mfgrs):
-        mfgrs = ManufacturerScrape.objects.filter(name__in=mfgrs)
+        mfgrs = ManufacturerCrawl.objects.filter(name__in=mfgrs)
     else:
-        mfgrs = ManufacturerScrape.objects.all()
+        mfgrs = ManufacturerCrawl.objects.all()
 
     for mfgr in mfgrs:
         model_data = [*model_data, *parser.identify_models(mfgr)]
@@ -24,5 +24,5 @@ def get_model_data(mfgrs: List[str]=[]):
             # Replace manufacturer string with reference
             model['manufacturer'] = mfgrs.get(name=model.get('manufacturer'))
             # Create database record for models
-            ModelScrape.objects.update_or_create(**model)
+            ModelCrawl.objects.update_or_create(**model)
 

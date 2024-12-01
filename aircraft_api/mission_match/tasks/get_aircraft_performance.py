@@ -8,7 +8,7 @@ from typing import List
 
 from aircraft.models import ManufacturerCrawl, ModelCrawl, AircraftCrawl
 from aircraft.serializers import AircraftCrawlSerializer, AircraftDataMapper
-from mission_match.planephd_parse import PlanePHDParser
+from mission_match.parsers.planephd_parse import PlanePHDParser
 
 @shared_task
 # @transaction.atomic
@@ -25,8 +25,6 @@ def get_aircraft_performance(model_name):
 
     parser_response = parser.get_generic_performance(model.__dict__)
     model_data = parser_response.get('data')
-    print('Got model data:')
-    pprint(model_data)
 
     data_mapper = AircraftDataMapper(data=model_data)
     mapped_data = data_mapper.get_normalized_data()
@@ -38,8 +36,11 @@ def get_aircraft_performance(model_name):
         model.last_parsed_at = datetime.now()
         if aircraft.is_valid():
             try:
-                AircraftCrawl.objects.filter(
+                old_model = AircraftCrawl.objects.get(
                     model_name=aircraft.validated_data.get('model_name')
+                )
+                AircraftCrawl.objects.filter(
+                    id=old_model.id
                 ).update(**aircraft.validated_data)
             except AircraftCrawl.DoesNotExist:
                 aircraft.save()

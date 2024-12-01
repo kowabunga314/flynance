@@ -4,10 +4,17 @@ from pprint import pprint
 import re
 import requests
 
-from mission_match.parse_aircraft_data import get_aircraft_data
+from mission_match.parsers.parse_aircraft_data import get_aircraft_data
 
 
 class PlanePHDParser:
+  """
+   Class meant for parsing specific data from PlanePHD.
+
+  This class parses specific data from PlanePHD; including manufacturers,
+  models, engines, etc. It is distinct from "parse_aircraft_data" and similar
+  tools because those are meant to pull in any data from a specific source.
+  """
   host = 'https://planephd.com'
 
   def crawl_aircraft(self):

@@ -3,22 +3,41 @@ import re
 import requests
 
 
-def get_aircraft_data(url: str=None) -> dict:
+def get_aircraft_data(url: str) -> dict:
+    """
+    get_aircraft_data Parses data from the PlanePHD page for a given aircraft model.
+
+    Uses BeautifulSoup to pull data out of a webpage.
+
+    Args:
+        url (str, optional): URL of page to crawl.
+
+    Returns:
+        dict: Data fields and accumulated warnings
+    """
+    # Validate URL has data
     if url is None:
-        url = 'https://planephd.com/wizard/details/445/MOONEY-M20E-Super-21-Chaparral-specifications-performance-operating-cost-valuation'
+        raise ValueError('The argument "url" cannot be None.')
+    # Get page content and parse with bs4
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
-    foo = soup.findAll('dl')
+    table_data = soup.findAll('dl')
 
     data = {}
     errors = {}
-    for table in foo:
+    # Iterate over key/value pairs in table data
+    for table in table_data:
         keys = table.findAll('dt')
         values = table.findAll('dd')
         for i in range(len(keys)):
             try:
-                key = keys[i].p.get_text(strip=True).strip(':')
-                # Get value from plain paragraph element
+                # Parse key
+                if keys[i].find('h4'):
+                    key = keys[i].h4.get_text(strip=True).strip(':')
+                else:
+                    key = keys[i].p.get_text(strip=True).strip(':')
+                print(f'Key value: {key}')
+                # Parse value
                 if values[i].find('p'):
                     value = values[i].p.get_text(strip=True)
                 else:   # Try looking in H4 elements
@@ -38,6 +57,7 @@ def get_aircraft_data(url: str=None) -> dict:
                         'message': str(e),
                         'value': str(values[i])
                     }
+            # Save key/value pair in data accumulator
             data[key] = value
 
     return {

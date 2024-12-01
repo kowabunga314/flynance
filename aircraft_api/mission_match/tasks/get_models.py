@@ -4,7 +4,7 @@ import requests
 from typing import List
 
 from aircraft.models import ManufacturerCrawl, ModelCrawl
-from mission_match.planephd_parse import PlanePHDParser
+from mission_match.parsers.planephd_parse import PlanePHDParser
 
 @shared_task
 @transaction.atomic

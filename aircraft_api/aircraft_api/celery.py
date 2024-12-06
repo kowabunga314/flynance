@@ -28,7 +28,7 @@ app = Celery('aircraft_api')
 # Load task modules from all registered Django app configs.
 app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
-print(f"Discovered tasks: {app.tasks.keys()}")
+# print(f"Discovered tasks: {app.tasks.keys()}")
 
 @shared_task
 def debug_task():

@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Docker: Django Debug",
-        "type": "debugpy",  // Use "python" or "debugpy" as supported
+        "name": "Django: Attach",
+        "type": "python",  // Use "python" or "debugpy" as supported
         "request": "attach",
-        "preLaunchTask": "docker-compose: debug",
+        "preLaunchTask": "docker-up-debugger",
         "connect": {
           "host": "localhost",
           "port": 5678
@@ -16,11 +16,7 @@
             "remoteRoot": "/app"
           }
         ],
-        "module": "manage",  // Specify the Django manage.py entry point
-        "args": [
-          "runserver",
-          "0.0.0.0:8000"
-        ]
+        "justMyCode": true
       }
     ]
   }

@@ -22,7 +22,7 @@ services:
     working_dir: /app
     command: python manage.py runserver 0.0.0.0:8000
     environment:
-      DATABASE_URL: postgresql://captain:squawkvfr@postgres:5432/flynance
+      DATABASE_URL: postgresql://captain:squawkvfr@db:5432/flynance
     ports:
       - 8000:8000
     volumes:
@@ -41,6 +41,9 @@ services:
     environment:
       - DJANGO_SETTINGS_MODULE=aircraft_api.settings
     ports: []
+    depends_on:
+      - db
+      - api
   celery_beat:
     <<: *api_base
     restart: always
@@ -48,6 +51,11 @@ services:
     environment:
       - DJANGO_SETTINGS_MODULE=aircraft_api.settings
     ports: []
+  debug:
+    <<: *api_base
+    restart: always
+    ports: []
+    command: tail -f /dev/null
   node:
     build:
       context: ./vue-app
@@ -57,5 +65,8 @@ services:
       - 8080:8080
     command: >
       sh -c "http-server dist"
+    depends_on:
+      - db
+      - api
 volumes:
   pgdata:

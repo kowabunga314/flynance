@@ -2,16 +2,17 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "docker-compose: debug",
+        "label": "docker-up-debugger",
         "type": "shell",
-        "command": "docker-compose",
+        "command": "docker",
         "args": [
+          "compose",
           "-f",
           "docker-compose.yaml",
           "-f",
           "docker-compose.debugging.yaml",
           "up",
-          "api"
+          "-d"
         ],
         "problemMatcher": []
       }

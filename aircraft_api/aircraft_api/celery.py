@@ -2,16 +2,15 @@ from __future__ import absolute_import, unicode_literals
 import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aircraft_api.settings')
 from django.apps import apps
-# from django.conf import settings
+from django.conf import settings
 import logging
 import sys
 
 from celery import Celery, shared_task
 from celery.signals import after_setup_logger
 
-
 # Set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aircraft_api.settings')
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django.conf:settings')
 
 app = Celery('aircraft_api')
 
@@ -30,8 +29,13 @@ app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 # print(f"Discovered tasks: {app.tasks.keys()}")
 
+# Use Django's logging configuration in Celery
+@after_setup_logger.connect
+def setup_celery_logging(logger, **kwargs):
+    logging.config.dictConfig(settings.LOGGING)
+
 @shared_task
 def debug_task():
     # Task logic
-   logger.debug('Executing debug task...')
+#    logger.debug('Executing debug task...')
    print('Executing debug task...')

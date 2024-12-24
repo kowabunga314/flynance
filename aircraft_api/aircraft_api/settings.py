@@ -140,7 +140,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -197,3 +197,5 @@ CELERY_TIMEZONE = 'America/Chicago'
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers.DatabaseScheduler'
 SCHEDULE_PERIODIC_TASKS = True
 
+# Flynance application settings
+ALWAYS_UPDATE_MODELS = False
